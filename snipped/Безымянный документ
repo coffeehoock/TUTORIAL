@@ -1,0 +1,22 @@
+В некоторых темах подключение происходит программно, с помощью php-кода:
+
+/*
+<link rel=»icon» type=»image/png» href=»<?php //echo get_template_directory_uri(); ?>/img/favicon.ico» />
+*/
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>my-site</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<header></header>
+	<content></content>
+	<footer></footer>
+</body><script src ="main.js" ></script>
+</html>

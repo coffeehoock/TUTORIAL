@@ -1,0 +1,9 @@
+	input[placeholder="yo set name"]::-webkit-input-placeholder{
+		text-indent: 0px;
+		transition: text-indent 0.4s ease;
+		color: rgba(0, 139, 139, 0.45)
+	}
+	input[placeholder="yo set name"]:focus::-webkit-input-placeholder{
+		text-indent: 500px;
+		transition: text-indent 1.4s ease;
+	}

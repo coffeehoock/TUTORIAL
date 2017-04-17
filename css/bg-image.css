@@ -1,0 +1,26 @@
+	.shapka {
+    width: 100%;
+    height: 300px;
+    background-image: url(0f17f249c51e7a5847c7eab5b0b0cffc.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+
+		.images{
+			width: 97vw;
+			height: 21vw;
+			background-image: url(7_sunnyshores_italy.jpg);
+			background-repeat: no-repeat;
+			background-position: 0vw -8vw;
+			background-attachment: fixed;
+			background-size: 98vw 97vw;
+			filter: blur(1px);
+			font-size: 4em;
+			text-align: center;
+			padding-top: 15vw;
+			padding-bottom: 5vw;
+			background-color: black;
+		}

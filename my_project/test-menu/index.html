@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test-menu</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body onscroll="scroll()">
+	<div class="nav-one"> menu
+		<p class="menu" id="test" >button 1</p>	
+		<p class="menu">button 2</p>
+		<p class="menu">button 3</p>
+		<p class="menu">button 4</p>
+	</div>
+	<img src="716102.jpg">
+</body>
+<script>
+
+
+
+
+	var doc = document;
+	var i = 0;
+	var nav = doc.getElementsByClassName("nav-one")[0];
+	// var menu = doc.getElementsByClassName('menu');
+	// var a = document.body.children[0].children[0];
+	// var s = document.body.children[0].children[1];
+	// var d = document.body.children[0].children[2];
+	// var f = document.body.chaildren[0].children[3];
+
+
+var delay = 1;
+   
+// var startUp = function(){
+// 	if (i < 53) { 
+		
+//         nav.style.top = -i + 'px';
+       
+// 	}
+
+//         setTimeout(startUp, delay);
+// 		i++;
+// };
+
+
+// var startDown = function(){
+// 	if (i < 53) { 
+		
+//         nav.style.top = i + 'px';
+       
+// 	}
+
+//         setTimeout(startDown, delay);
+// 		i++;
+// };
+
+
+	var scroll = function() {
+			if (window.pageYOffset < 100) {
+				nav.className = "nav-one";
+				// nav.style.top = '0px';
+				
+			
+			// } else if (window.pageYOffset > 600) {
+				// startUp()
+	
+			// } else if (window.pageYOffset = 0) {
+			// 	nav.style.top = '1px';
+	
+			}else {
+				nav.className = "nav-js";
+				// nav.style.top = '0px';
+	 }
+};
+
+
+
+
+
+
+// window.onscroll = function() {
+//   var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+//   document.body.getElementsByClassName('cont')[0].innerHTML = scrolled + 'px';
+// }
+
+
+// window.onscroll = function() {
+//   var scrolled = window.pageYOffset;
+//   console.log(scrolled)
+// }
+</script>
+</html>

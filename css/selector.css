@@ -1,0 +1,59 @@
+/*применять только к пораграыфу с данным класом*/
+@charset "utf-8"
+
+p.class {}
+
+/*по атрибуту*/
+a[href="http://188.243.241.229/PUBLIC/"] {}
+
+/*только к потомкакм */
+.class > p {}
+.class > p, h1 {}
+div.class > p {}
+
+/*к потомкакм и внукам*/
+.class p {}
+.class p, h1 {}
+div.class p {}
+
+/*сестрицкий тег*/
+.class + p{}
+/* следующий р и тд */
+.class + p + p{}
+
+
+/* псевдо элементы */
+h1::first-letter{}  /* выделяет первую букву */
+
+/* что бы стиль не переопределялся */
+!important
+
+/* new */
+transform: rotate(0deg) scale(1.0);
+
+vertical-align: bottom;
+vertical-align: middle;
+
+visibility со значением hidden. Оно «прячет» элемент — он становится невидимым, но занимает место на странице.
+
+
+
+border-top-width: 13px;
+    
+
+    div:first-child{ -первый
+        color:aqua;
+    }
+    div:last-child{ -последний
+        color:aqua;
+    }
+
+    div:nth-child(1){
+        color:aqua;
+    }
+    div:nth-child(3n){-каждый третий
+    }
+    div:hover p {
+    color: #0088cc;
+    }
+body div:first-child ul li:nth-child(1) div.hitbox{}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 100%/1.5em arial,Helvetica,sans-serif;
+    color: #000;
+}
+.container{
+    background: #e2e2e2;
+    /*width: 960px;  ширины в проентах а шрифты в em */
+    width: 90%;
+    margin: 0 auto;
+    /*font-size: 40px;  40 / 16 = 2,5  */
+    font-size: 2,5em;
+    /*display: table;  для нерезиновых элементов  /* для гибридной верстки */*/
+}
+section{
+
+}
+aside{
+    background: #d1d1d1;
+    width: 650px ;/* 650 / 960 = 0,677083333 * 100 =67,708333333 */
+    width: 67,708333333% ;
+    /*display: table-cell;  для гибридной верстки */
+}
+footer{
+    /*display: table-row;  для гибридной верстки */
+}
+
+/*  100 / 12 размер столбца = 8,333333333% */
