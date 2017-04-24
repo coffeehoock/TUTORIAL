@@ -1,3 +1,66 @@
+
+
+#656565
+
+#58cd28
+#41a9db
+
+#a3a3a3
+#f1f1f1
+
+#ffffff
+
 #d9d9d9
 #5e6168
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Pragma" content="no-cache">
+	<title>Document</title>
+</head>
+<style>
+	.iconn-left{
+	    color: #ffffff;
+	    /* background: #656565; */
+	    background: linear-gradient(to top, rgba(101, 101, 101, 0.53) 0%, #656565 36%, rgba(101, 101, 101, 0.53) 100%);
+	    border-bottom-left-radius: 5px;
+	    border-top-left-radius: 5px;
+	    text-align: center;
+	    text-decoration: none;
+	    padding: 5px 10px 5px 15px;
+	    float: left;
+	    text-shadow: 0px 1px 2px black;
+	    letter-spacing: 4px;
+	}
+	.iconn-right{
+	    color: #ffffff;
+	    /* background: #58cd28; */
+	    background: linear-gradient(to top, rgba(88, 205, 40, 0.53) 0%, #58cd28 36%, rgba(88, 205, 40, 0.53) 100%);
+	    border-bottom-right-radius: 5px;
+	    border-top-right-radius: 5px;
+	    text-align: center;
+	    text-decoration: none;
+	    padding: 5px 10px 5px 10px;
+	    float: left;
+	    text-shadow: 0px 1px 2px black;
+	    letter-spacing: 4px;
+}
+</style>
+<body>
+
+
+
+<a href="" class="iconn">
+	<div class="iconn-left">build</div>
+	<div class="iconn-right">passing</div>
+</a>
+
+
+
+
+</body>
+<script src="pro.js"></script>
+</html>
