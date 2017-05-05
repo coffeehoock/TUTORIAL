@@ -1,8 +1,11 @@
-                                 #настройка
+ 			#cкачать репозиторий                                 
 
+git clone https://github.com/coffeehoock/TUTORIAL.git
+				
+			#настройка
 
-git config --global user.name "codehook"
-git config --global user.email "gtx248@gmail.com"
+git config --global user.name "coffeehoock"
+git config --global user.email "coffeehoock@gmail.com"
 git config --global core.editor "subl -w"
 git config --global color.ui true
 
@@ -30,12 +33,6 @@ git push -u origin master
 
 				#cкачать репозиторий 
 
-git clone https://github.com/codehook/gg.git
-
-
-
-
-
 
 		      #Добавляем все новые и измененные файлы
 
@@ -58,9 +55,4 @@ git diff --staged # сравнить файлы репозитория с буф
 
 git rm
 git mv
-
-
-
-https://github.com/codehook/TUTOREAL.git
-git@github.com:codehook/TUTOREAL.git
 
