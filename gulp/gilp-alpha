@@ -1,6 +1,12 @@
 sudo npm install gulpjs/gulp-cli -g
-npm install gulpjs/gulp#4.0 --save-dev
 sudo chmod +x -R  /home/ 
+
+#создает файл package.json
+npm init
+npm install gulpjs/gulp#4.0 --save-dev
+
+
+
 
 
 
