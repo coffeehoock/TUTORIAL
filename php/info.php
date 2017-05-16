@@ -532,3 +532,6 @@ echo $teacher->greet();
       // Imagine the first chosen card was the 7 of Diamonds.
       // This is how we would show the user what they have:
       echo 'You have the ' . $deck[2][0] . '!';
+
+
+// логические операторы or или and и
