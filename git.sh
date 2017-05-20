@@ -12,4 +12,17 @@ sleep 3 &&
 
 sleep 3 &&
 
-	git status
+	git status &&
+
+sleep 3 &&
+
+	git commit -m date &&
+
+sleep 3 &&
+
+	git status &&
+
+sleep 3 &&
+
+	git push
+
