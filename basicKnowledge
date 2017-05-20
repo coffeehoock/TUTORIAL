@@ -12,48 +12,10 @@
 11) скрипт - сценарий
 12) стать ГУРУ JS: узнать больше о JSON, JSONP и кросс-доменных запросах
 13) общее понимание основ и концепций программирования
+14) машинное обучение: классификация текста с помощью нейронных сетей и TensorFlowPost thumbnail
+15) как можно создавать ботов 
 
 
 http://codingcraft.ru/data_structure.php
 https://yandex.ru/search/?text=как%20классифицировать%20структуру%20данных&lr=2&clid=9403
 http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/
-
-
-  $headCount = 0;
-  $flipCount = 0;
-
-  while ($headCount < 3) {
-    $flip = rand(0,1);
-    $flipCount ++;
-    if ($flip){
-      $headCount ++;
-      echo "<div class=\"coin\">H</div>";
-    }
-    else {
-      $headCount = 0;
-      echo "<div class=\"coin\">T</div>";
-    }
-  }
-  echo "<p>случайное число  равно {$flipCount}</p>";
-
-
-
-    $flipCount = 0;
-
-      do {
-        $flip = rand(0,1);
-        $flipCount ++;
-        if ($flip){
-            echo "<div class=\"coin\">H</div>";
-        }
-        else {
-            echo "<div class=\"coin\">T</div>";
-        }
-    } while ($flip);
-    $verb = "were";
-    $last = "flips";
-    if ($flipCount == 1) {
-        $verb = "was";
-        $last = "flip";
-    }
-    echo "<p>There {$verb} {$flipCount} {$last}!</p>";
