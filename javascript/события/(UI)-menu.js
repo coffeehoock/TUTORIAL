@@ -1,12 +1,10 @@
-https://www.w3schools.com/howto/howto_js_dropdown.asp
-
-
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="Pragma" content="no-cache">
+  <!-- <link href='//fonts.googleapis.com/css?family=Sofia' rel='stylesheet'> -->
   <title>menu</title>
 </head> 
 <style>
@@ -75,8 +73,8 @@ https://www.w3schools.com/howto/howto_js_dropdown.asp
 <div class="container">
   <a href="#home">Home</a>
   <a href="#news">News</a>
-  <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction()">Dropdown</button>
+  <div class="dropdown" onmouseleave="closedropdown()">
+    <button class="dropbtn" onclick="myFunction()">MENU</button>
     <div class="dropdown-content" id="myDropdown">
       <a href="#">Link 1</a>
       <a href="#">Link 2</a>
@@ -114,6 +112,7 @@ function myFunction2() {
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) {
     var myDropdown = document.getElementById("myDropdown");
+    // var dropdown = document.getElementsByClassName("dropdown")[0];
       if (myDropdown.classList.contains('show')) {
         myDropdown.classList.remove('show');
       }
@@ -125,6 +124,12 @@ window.onclick = function(e) {
       }
   }
 }
+
+function closedropdown(){
+  myDropdown.classList.remove('show');
+}
+
+
 
 
 </script>
