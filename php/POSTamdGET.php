@@ -208,8 +208,9 @@ echo "<br>";
  ?>
 
 
-<?php 
 
+
+<?php 
 if (count($_POST) > 0) {
   # code...
   $name = $_POST["name"];
@@ -220,16 +221,20 @@ if (count($_POST) > 0) {
   echo "ваша заявка принята";
 }
 
-
-
  ?>
 
- 
+ <hr>
+ <?php 
+$array_my = [
+  
+];
+
+  ?>
 
 
  <form method="post" >
   <label>имя</label>
-  <input type="text" name="name" value="">
+  <input type="text" name="name" value="name">
   <br>
   <label>пароль</label>
   <input type="password" name="password">
