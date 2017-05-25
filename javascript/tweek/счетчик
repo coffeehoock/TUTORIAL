@@ -1,0 +1,39 @@
+function  {
+  var currentCount = 1;
+
+  return function() { // (**)
+    return currentCount++;
+  };
+}
+// без запеси в переменную не работает makeCounter()
+var counter = makeCounter(); // (*)
+
+// каждый вызов увеличивает счётчик и возвращает результат
+alert( counter() ); // 1
+alert( counter() ); // 2
+alert( counter() ); // 3
+
+// создать другой счётчик, он будет независим от первого
+var counter2 = makeCounter();
+alert( counter2() ); // 1
+
+
+
+
+
+
+
+
+
+function makeCounter() {
+  function counter() {
+    return counter.currentCount++;
+  };
+  counter.currentCount = 1;
+
+  return counter;
+}
+
+var counter = makeCounter();
+alert( counter() ); // 1
+alert( counter() ); // 2

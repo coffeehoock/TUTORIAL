@@ -1,0 +1,33 @@
+События прокрутки
+
+
+Когда элемент прокручивается, запускается событие «scroll». Это используется во многих случаях, например чтобы узнать, на что сейчас пользователь смотрит (чтобы останавливать анимацию, не попавшую на экран, или отправлять секретные шпионские донесения в ваш злодейский штаб), или визуально демонстрировать прогресс (подсвечивая часть содержания или показывая номер страницы).
+
+В примере в правом верхнем углу документа создаётся индикатор процесса, который заполняется по мере прокрутки элемента вниз.
+
+<style>
+  .progress {
+    border: 1px solid blue;
+    width: 100px;
+    position: fixed;
+    top: 10px; right: 10px;
+  }
+  .progress > div {
+    height: 12px;
+    background: blue;
+    width: 0%;
+  }
+  body {
+    height: 2000px;
+  }
+</style>
+<div class="progress"><div></div></div>
+<p>Scroll me...</p>
+<script>
+  var bar = document.querySelector(".progress div");
+  addEventListener("scroll", function() {
+    var max = document.body.scrollHeight - innerHeight;
+    var percent = (pageYOffset / max) * 100;
+    bar.style.width = percent + "%";
+  });
+</script>

@@ -1,0 +1,34 @@
+https://habrahabr.ru/post/244041/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function displayCoords(event) {
+    document.body.textContent =
+      "Мышь на " + event.pageX + ", " + event.pageY;
+  }
+
+  var scheduled = false, lastEvent;
+  addEventListener("mousemove", function(event) {
+    lastEvent = event;
+    if (!scheduled) {
+      scheduled = true;
+      setTimeout(function() {
+        scheduled = false;
+        displayCoords(lastEvent);
+      }, 250);
+    }
+  });
+</script>
