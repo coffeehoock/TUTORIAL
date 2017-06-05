@@ -218,7 +218,7 @@ echo "<br>";
 <?php 
   // изначально мы на _GET если _POST  не пустой то переходим в пост
 if (count($_POST) > 0) {
-  # code...
+  # trim для безопасности
   $name = trim($_POST["name"]);
   $password = trim($_POST["password"]);
   $dt = date("Y-m-d H:i:s");
@@ -236,9 +236,33 @@ if (count($_POST) > 0) {
     $msg = "пароль должен состоять из чисел";
   }
   else{
+  
+    // $db = new mysqli("localhost", "root", "123123qq", "sitetest" );
+    // // $db->query("SET NAMES 'utf8'");
 
-  file_put_contents("/home/coffeehoock/desktop/testphp/apps.txt", "$dt $name $password\r\n", FILE_APPEND);
+
+    // $db->query("INSERT INTO `apps` (`id`, `dt`, `name`, `password`) VALUES (NULL, CURRENT_TIMESTAMP, '$name', '$password')");
+
+
+    // $db->close();
+
+
+  $db = new PDO('mysql:host=localhost;dbname=sitetest', 'root','123123qq');
+  $db->exec("SET NAMES UTF8");
+
+  $query = $db->prepare("INSERT INTO `apps` (`name`, `password`) VALUES ( :name, :password)");
+  
+  $values = ['name' => $name, 'password' => $password];
+
+  $query->execute($values);
+  
+  
+
+
   $msg = "ваша заявка принята";
+  
+
+  // file_put_contents("/home/coffeehoock/desktop/testphp/apps.txt", "$dt-|-$name-|-$password\r\n", FILE_APPEND);
   }
 
 
@@ -252,7 +276,6 @@ else{
 	// ревый заход на страницу методом $_GET
 	$msg = "привет заполните форму";
 }
-
  ?>
 
  <hr>
@@ -269,7 +292,8 @@ else{
 	  <input type="submit" value="goo!!!">
 </form>
  <?php echo $msg; ?>
+
+
 </body>
 </html>
-
 
