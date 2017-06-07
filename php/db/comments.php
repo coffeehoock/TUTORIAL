@@ -50,7 +50,13 @@ $comments = $query->fetchAll();
 // 	print_r($comments);
 // echo "</pre>";
 
+
+
+$ref = $_GET[ref]; 
+$ref = htmlspecialchars($ref); 
+
 ?>
+
 
 <form method="post">
 	имя<br>
@@ -58,6 +64,13 @@ $comments = $query->fetchAll();
 	соментарий<br>
 	<textarea name="text"><?php echo $text; ?></textarea><br>
 	<input type="submit" value="отправить">
+<!-- добавляем в браузер к адрессу -->
+<!-- ?ref=76767676767 -->
+<!-- .php?ref=123"><div>hello -->
+	<input name="ref" type="hidden" value="<?=$ref?>">
+	<!-- получаем -->
+	<!-- <input name="ref" type="hidden" value="76767676767"> -->
+
 </form>
 <div class="comments">
 <?php 
@@ -97,3 +110,4 @@ $comments = $query->fetchAll();
 </style>
 </html>
 <!-- <script>while(true){alert("idiot")}</script> -->
+<!-- http://188.243.241.229/comments.php?ref=123"><script>while(true){alert("idiot")}</script> -->
