@@ -16,6 +16,7 @@
 			background-repeat: no-repeat;
 			background-position: 0vw -8vw;
 			background-attachment: fixed;
+			background-attachment устанавливает, будет ли прокручиваться фоновое изображение вместе с содержимым элемента. Изображение может быть зафиксировано и оставаться неподвижным, либо перемещаться совместно с документом. В CSS3 можно указать несколько значений для ряда фоновых изображений, перечисляя значения через запятую.
 			background-size: 98vw 97vw;
 			filter: blur(1px);
 			font-size: 4em;
