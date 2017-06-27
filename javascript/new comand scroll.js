@@ -8,11 +8,45 @@ window.onscroll = function() {
     
 }
 
+window.pageYOffset || document.documentElement.scrollTop
+
+Ширина/высота видимой части окна
+	clientWidth/Height
+
+anim.scrollIntoView(top)
+anim.scrollIntoView(false)
 
 
 document.documentElement
 document.documentElement.clientHeight
 document.documentElement.clientTop
+
+document.documentElement.scrollHeight
+высота с учетом прокрутки
+
+document.documentElement.clientHeight
+видимая высота
+
+
+
+Свойства clientWidth/Height, 
+если есть полоса прокрутки, возвращают именно ширину/высоту внутри неё, доступную для документа, а window.innerWidth/Height – игнорируют её наличие
+
+Для получения размеров всей длинны страницы
+var scrollHeightfull = Math.max(
+  document.body.scrollHeight, document.documentElement.scrollHeight,
+  document.body.offsetHeight, document.documentElement.offsetHeight,
+  document.body.clientHeight, document.documentElement.clientHeight
+);
+
+Для получения размеров видимой части окна
+document.documentElement.clientWidth
+
+
+scrollBy(x,y) прокручивает страницу относительно текущих координат
+scrollTo(pageX,pageY) прокручивает страницу к указанным координатам 
+
+
 
 window.scrollTo(0,100000)
 document.scrollingElement.scrollTop = 38888
