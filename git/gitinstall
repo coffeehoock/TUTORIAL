@@ -1,2 +1,5 @@
- git clone https://github.com/coffeehoock/TUTORIAL.git
+ssh-keygen
 
+добавить ключ из ssh-rsa.pub на гтхаб
+
+git clone git@github.com:coffeehoock/TUTORIAL.git .
