@@ -1,0 +1,210 @@
+.left{
+	display: inline-block;
+}
+.Selection-type_user{
+	text-align: center;
+	background: #e7e7e7;
+	border: 3px solid #cbcbcb;
+	/*margin: 0 -3px;*/
+	margin: 6px -1px !important;
+	transition: all .1s;
+	padding-top: 0.625em;
+}
+.Selection-type_user:nth-child(1){
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.Selection-type_user:nth-child(2){
+}
+
+.Selection-type_user:nth-child(3){
+}
+
+.Selection-type_user:nth-child(4){
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.cotainer{
+	/*width: 100%;*/
+	width: 900px;
+	margin: 0 auto;
+}
+
+input{
+	border-radius: 3px;
+}
+.a-1{
+	/*width: 150px !important;*/
+}
+.a-1, input{
+	color: #e05454;
+}
+.data-input input{
+	width: 100px;
+} 
+.data-input{
+	overflow-x: hidden;
+	/*width: 50%;*/
+	float: left;
+}
+.data-output{
+	float: right;
+	/*width: 50%;*/
+	background: #dcf3e7;
+}
+.data-output{
+	width: 290px;
+	height: 450px;
+	margin: 0 auto;
+}
+.data-input{
+	width: 610px;
+	height: 450px;
+	margin: 0 auto;
+}
+.question{
+	border-radius: 50px;
+	background: aliceblue;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+}
+
+.info{
+	/*vertical-align: top;*/
+}
+.output-inner, .result{
+	float: left;
+	margin: 28px 7px;
+
+}
+.result{
+	background: white;
+	margin-left: 10px;
+	margin-right: 10px;
+	min-width: 50px;
+	text-align: center;
+	border-radius: 3px;
+	border: 1px solid #d7cdcd;
+}
+.result + div{
+	/*float: left;*/
+	margin-left: 10px;
+}
+.blok-data-output{
+	    /*line-height: 3;*/
+	min-width: 50%;
+	clear: both;
+}
+.result , .blok-data-output{
+	margin-bottom: 21px;
+}
+/*.Selection{
+	overflow: auto;
+	width: 213px;
+}
+*/
+.Selection button{
+	float: left;
+	/*display: inline;*/
+}
+.Selection-inner{
+	display: flex;
+	/*position: relative;*/
+	/*top: 30px;*/
+}
+
+.data-input button{
+	width: 96px;
+	height: 46px;
+	margin-left: 168px;
+}
+.data-input .Selection button{
+	/*width: 50px;*/
+	height: 50px;
+	margin-left: 0px !important;
+}
+
+.Selection_type{
+	background: #f0f0f0;
+	display: none;
+}
+
+.data-input div,
+.data-input input,
+.data-input label{
+	margin: 10px 10px;
+}
+.Selection{
+	width: 98%;
+	margin: 0 auto;
+	border-radius: 6px;
+	border: 2px solid #dbdbdb;
+}
+.calculate-button{
+	float: left;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#popup{
+	width: 42%;
+	height: 207px;
+	background: rgb(236, 236, 236);
+	border-radius: 5px;
+	border: 3px solid #cbcbcbb3;
+	/*box-shadow: 12px 13px 17px #f1f1f1, 0px 0px 0em #f1f1f1;*/
+	position: fixed;
+	padding: 20px 20px;
+	top: 0;
+	text-align: center;
+	z-index: 100000;
+	display: none;
+	opacity: 0;
+}
+.popup-inner_button{
+	width: 73px;
+	height: 34px;
+	background: cadetblue;
+	float: left;
+	border-radius: 5px;
+	border: 3px solid cadetblue;
+	text-align: center;
+	padding: 2px 0;
+	color: white;
+	transition: all .5s;
+}
+.popup-inner_button:hover{
+	transition: all .5s;
+	cursor: pointer;
+	background: darkred;
+}
+
+#popup div{
+	position: relative;
+	left: 15%;
+	top: -3%;
+}
+
+div{
+	margin-bottom: 1px;
+}
+
+.sector{
+	padding: 0;
+	margin: 0;
+}
+
+.data-output{
+	position: relative;
+	left: -60px;
+}
+
+.text1{
+	min-width:400px;
+	margin-top:10px;
+}
