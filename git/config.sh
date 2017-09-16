@@ -1,7 +1,4 @@
- 			#cкачать репозиторий                                 
-
-git clone https://github.com/coffeehoock/TUTORIAL.git
-				
+ 		
 			#настройка
 
 git config --global user.name "coffeehoock"
