@@ -231,90 +231,90 @@ function js_variables(){
  */
 function my(){
 
-$current_user = wp_get_current_user();
-if ( 0 == $current_user->ID ) {
-    die('not_reg');
-}
+    $current_user = wp_get_current_user();
+    if ( 0 == $current_user->ID ) {
+        die('not_reg');
+    }
 
-$shirinaPomeseniya = $_REQUEST['shirinaPomeseniya'];
-if ($_REQUEST['shirinaPomeseniya'] == NaN){
-    $shirinaPomeseniya = 0;
-}
-$dlinnaPomeseniya = $_REQUEST['dlinnaPomeseniya'];
-if ($_REQUEST['dlinnaPomeseniya'] == NaN){
-    $dlinnaPomeseniya = 0;
-}
-$visotaPomeseniya = $_REQUEST['visotaPomeseniya'];
-if ($_REQUEST['visotaPomeseniya'] == NaN){
-    $visotaPomeseniya = 0;
-}
-$dlinnaUgla = $_REQUEST['dlinnaUgla'];
-if ($_REQUEST['dlinnaUgla'] == NaN){
-    $dlinnaUgla = 0;
-}
-$shirinaUgla = $_REQUEST['shirinaUgla'];
-if ($_REQUEST['shirinaUgla'] == NaN){
-    $shirinaUgla = 0;
-}
-$gubinaKolonniy = $_REQUEST['gubinaKolonniy'];
-if ($_REQUEST['gubinaKolonniy'] == NaN){
-    $gubinaKolonniy = 0;
-}
-$sirinaKolonniy = $_REQUEST['sirinaKolonniy'];
-if ($_REQUEST['sirinaKolonniy'] == NaN){
-    $sirinaKolonniy = 0;
-}
-$kolihestvoSten = $_REQUEST['kolihestvoSten'];
-if ($_REQUEST['kolihestvoSten'] == NaN){
-    $kolihestvoSten = 0;
-}
-$dlinnaSten = $_REQUEST['dlinnaSten'];
-if ($_REQUEST['dlinnaSten'] == NaN){
-    $dlinnaSten = 0;
-}
-$visotaPomesenia = $_REQUEST['visotaPomesenia'];
-if ($_REQUEST['visotaPomesenia'] == NaN){
-    $visotaPomesenia = 0;
-}
-$kolihestvoProemov = $_REQUEST['kolihestvoProemov'];
-if ($_REQUEST['kolihestvoProemov'] == NaN){
-    $kolihestvoProemov = 0;
-}
-$visotaOkna = $_REQUEST['visotaOkna'];
-if ($_REQUEST['visotaOkna'] == NaN){
-    $visotaOkna = 0;
-}
-$sirinaOkna = $_REQUEST['sirinaOkna'];
-if ($_REQUEST['sirinaOkna'] == NaN){
-    $sirinaOkna = 0;
-}
-$visotaBalkonDveri = $_REQUEST['visotaBalkonDveri'];
-if ($_REQUEST['visotaBalkonDveri'] == NaN){
-    $visotaBalkonDveri = 0;
-}
-$sirinaBalkkonDveri = $_REQUEST['sirinaBalkkonDveri'];
-if ($_REQUEST['sirinaBalkkonDveri'] == NaN){
-    $sirinaBalkkonDveri = 0;
-}
-$visotaBalkonOkna = $_REQUEST['visotaBalkonOkna'];
-if ($_REQUEST['visotaBalkonOkna'] == NaN){
-    $visotaBalkonOkna = 0;
-}
-$sirinaBalkonOkna = $_REQUEST['sirinaBalkonOkna'];
-if ($_REQUEST['sirinaBalkonOkna'] == NaN){
-    $sirinaBalkonOkna = 0;
-}
-$kolihestvoDverProemov = $_REQUEST['kolihestvoDverProemov'];
-if ($_REQUEST['kolihestvoDverProemov'] == NaN){
-    $kolihestvoDverProemov = 0;
-}
-$visotaDveri = $_REQUEST['visotaDveri'];
-if ($_REQUEST['visotaDveri'] == NaN){
-    $visotaDveri = 0;
-}
-$shirinaDveri = $_REQUEST['shirinaDveri'];
-if ($_REQUEST['shirinaDveri'] == NaN){
-    $shirinaDveri = 0;
+    $shirinaPomeseniya = $_REQUEST['shirinaPomeseniya'];
+    if ($_REQUEST['shirinaPomeseniya'] == NaN){
+        $shirinaPomeseniya = 0;
+    }
+    $dlinnaPomeseniya = $_REQUEST['dlinnaPomeseniya'];
+    if ($_REQUEST['dlinnaPomeseniya'] == NaN){
+        $dlinnaPomeseniya = 0;
+    }
+    $visotaPomeseniya = $_REQUEST['visotaPomeseniya'];
+    if ($_REQUEST['visotaPomeseniya'] == NaN){
+        $visotaPomeseniya = 0;
+    }
+    $dlinnaUgla = $_REQUEST['dlinnaUgla'];
+    if ($_REQUEST['dlinnaUgla'] == NaN){
+        $dlinnaUgla = 0;
+    }
+    $shirinaUgla = $_REQUEST['shirinaUgla'];
+    if ($_REQUEST['shirinaUgla'] == NaN){
+        $shirinaUgla = 0;
+    }
+    $gubinaKolonniy = $_REQUEST['gubinaKolonniy'];
+    if ($_REQUEST['gubinaKolonniy'] == NaN){
+        $gubinaKolonniy = 0;
+    }
+    $sirinaKolonniy = $_REQUEST['sirinaKolonniy'];
+    if ($_REQUEST['sirinaKolonniy'] == NaN){
+        $sirinaKolonniy = 0;
+    }
+    $kolihestvoSten = $_REQUEST['kolihestvoSten'];
+    if ($_REQUEST['kolihestvoSten'] == NaN){
+        $kolihestvoSten = 0;
+    }
+    $dlinnaSten = $_REQUEST['dlinnaSten'];
+    if ($_REQUEST['dlinnaSten'] == NaN){
+        $dlinnaSten = 0;
+    }
+    $visotaPomesenia = $_REQUEST['visotaPomesenia'];
+    if ($_REQUEST['visotaPomesenia'] == NaN){
+        $visotaPomesenia = 0;
+    }
+    $kolihestvoProemov = $_REQUEST['kolihestvoProemov'];
+    if ($_REQUEST['kolihestvoProemov'] == NaN){
+        $kolihestvoProemov = 0;
+    }
+    $visotaOkna = $_REQUEST['visotaOkna'];
+    if ($_REQUEST['visotaOkna'] == NaN){
+        $visotaOkna = 0;
+    }
+    $sirinaOkna = $_REQUEST['sirinaOkna'];
+    if ($_REQUEST['sirinaOkna'] == NaN){
+        $sirinaOkna = 0;
+    }
+    $visotaBalkonDveri = $_REQUEST['visotaBalkonDveri'];
+    if ($_REQUEST['visotaBalkonDveri'] == NaN){
+        $visotaBalkonDveri = 0;
+    }
+    $sirinaBalkkonDveri = $_REQUEST['sirinaBalkkonDveri'];
+    if ($_REQUEST['sirinaBalkkonDveri'] == NaN){
+        $sirinaBalkkonDveri = 0;
+    }
+    $visotaBalkonOkna = $_REQUEST['visotaBalkonOkna'];
+    if ($_REQUEST['visotaBalkonOkna'] == NaN){
+        $visotaBalkonOkna = 0;
+    }
+    $sirinaBalkonOkna = $_REQUEST['sirinaBalkonOkna'];
+    if ($_REQUEST['sirinaBalkonOkna'] == NaN){
+        $sirinaBalkonOkna = 0;
+    }
+    $kolihestvoDverProemov = $_REQUEST['kolihestvoDverProemov'];
+    if ($_REQUEST['kolihestvoDverProemov'] == NaN){
+        $kolihestvoDverProemov = 0;
+    }
+    $visotaDveri = $_REQUEST['visotaDveri'];
+    if ($_REQUEST['visotaDveri'] == NaN){
+        $visotaDveri = 0;
+    }
+    $shirinaDveri = $_REQUEST['shirinaDveri'];
+    if ($_REQUEST['shirinaDveri'] == NaN){
+        $shirinaDveri = 0;
 }
 
 
