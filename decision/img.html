@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style type="text/css">
+.visibl {
+  width: 70%;
+  margin: 0 auto;
+  /*float: left;*/
+  /*display: block;*/
+
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+img[data-src] {
+  opacity: 0;
+}
+</style>
+<body>
+
+
+<div class="visibl">
+		
+		<img data-src="http://files.all-free-download.com//downloadfiles/wallpapers/1920_1080/heihachi_mishima_tekken_7_4k_17496.jpg" alt="" />
+		<img data-src="http://files.all-free-download.com//downloadfiles/wallpapers/1920_1080/forza_horizon_3_hd_xbox_one_17493.jpg" alt="" />
+		<img data-src="http://images.all-free-download.com/images/wallpapers_thum/teenage_mutant_ninja_turtle_out_of_the_shadows_5k_17489.jpg" alt="" />
+		<img data-src="http://files.all-free-download.com//downloadfiles/wallpapers/1920_1080/justice_league_2017_movie_17488.jpg" alt="" />
+		<img data-src="http://files.all-free-download.com//downloadfiles/wallpapers/1920_1080/dont_breathe_2016_horror_movie_17475.jpg" alt="" />
+	
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+jQuery('.visibl').css({'opacity': '0'});
+
+$('img[data-src]').each(function() { // перебираем все img с атрибутом data-src
+  var img = $(this);
+  img.attr('src', img.attr('data-src')); // подставляем адрес в src
+  img.on('load', function() { // после загрузки изображения
+    
+    img.removeAttr('data-src'); // убираем атрибут data-src, после чего отображается загруженное изображение 
+    
+    if ($('img[data-src]').length === 0) {
+    // if ($('img[data-src]').length === 0) {
+
+    	jQuery('.visibl').css({'opacity': '1'});
+    	
+    }
+  
+  });
+});
+
+
+</script>
+
+</body>
+</html>
+
+
