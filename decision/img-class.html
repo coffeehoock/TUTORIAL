@@ -47,12 +47,12 @@ jQuery('.visibl').css({'opacity': '0'});
 $('img.not-ready').each(function() { // перебираем все img с атрибутом data-src
   var img = $(this);
   
-  // img.attr('src', img.attr('data-src'));
+
   img.addClass('g') // подставляем адрес в src
   
   img.on('load', function() { // после загрузки изображения
     
-    // img.removeAttr('data-src'); // убираем атрибут data-src, после чего отображается загруженное изображение 
+
     img.removeClass('g')
     if ($('img.not-ready.g').length === 0) {
 
