@@ -29,7 +29,6 @@ G.average = ->
 
 G.getVar = do -> 
 	count = 'clousure var'
-
 	-> # обращение к переменной count в тот момет когда ее не существует
 		count
 
