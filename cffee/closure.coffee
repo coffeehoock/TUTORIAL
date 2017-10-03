@@ -1,3 +1,5 @@
+G = window
+
 G.getIt = ->
 	@x
 	# @y 
