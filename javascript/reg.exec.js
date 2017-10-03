@@ -1,5 +1,11 @@
-var reg = /\b/g;
+var reg = /\d/g;
 
-var input = 'swsw832782ju jnsu3hye32ey723e23';
+var input = 'swsw832782jujnsu3hye32ey723e23';
 
-reg.exec(input)
+var arr;
+
+// reg.exec(input)
+
+while ((arr = reg.exec(input)) != null) {
+  console.log(arr[0])
+}
