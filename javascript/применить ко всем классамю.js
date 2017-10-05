@@ -1,7 +1,15 @@
+var h = {};
 function retUrne(elcol){
   for (var y in document.getElementsByClassName('figure')){
-    document.getElementsByClassName('figure')[y].style.color = elcol
     
-    y++; if(y === document.getElementsByClassName('figure').length) return elcol
+    document.getElementsByClassName('figure')[y].style.color = elcol;
+
+    G.h[y] = document.getElementsByClassName('figure')[y];
+
+    y++;
+    if(y === document.getElementsByClassName('figure').length){
+      
+        return G.h
+    };
   }
 }
