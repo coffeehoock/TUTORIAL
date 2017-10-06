@@ -21,4 +21,4 @@ class @Smail extends @ABSOLUTE
 
 
 @objABSOLUTE = new ABSOLUTE 'Alex-BIG', 33
-@objSmail = new Smail 'Alex-Smail', 44
+@objSmail    = new Smail 'Alex-Smail', 44
