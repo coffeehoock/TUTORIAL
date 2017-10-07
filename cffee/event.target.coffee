@@ -13,6 +13,8 @@ document.onmousemove = ( event ) ->
 	# 	l 'div'
 
 
+event = event || window.event
+
 # do event.stopPropagation
 # do event.preventDefault
 
