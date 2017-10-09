@@ -394,3 +394,48 @@ show el for el in arrgoover
 
 # remove show index for el, index in arrgoover
 show index for el, index in arrgoover
+
+
+#================================
+#	@loop
+#   for var in obj
+#================================
+###
+
+###
+
+@objArr = {
+	obj1: {name: "Jon1"}
+	obj2: {name: "Jon2"}
+	obj3: {name: "Jon3"}
+	obj4: {
+		hoock:{
+			femely: "kosonova"
+		}
+	}
+}
+
+objArr.name   = "Jony"
+objArr.age 	  =	22
+objArr.say    =	"hello"
+objArr.friend =	"Mary"
+objArr.walks = ->
+	"I'm #{@name} going to visit #{@friend}"
+
+l property for property of objArr
+
+value = {}
+
+###
+пробежаться по всем свойствам
+###
+l objArr[property] for property of objArr
+###
+запушить в пееменную value
+###
+l value for own property, value of objArr
+###
+добавить только родные
+свойства own
+###
+l value for own property, value of objArr
