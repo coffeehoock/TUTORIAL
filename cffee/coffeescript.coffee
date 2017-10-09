@@ -325,3 +325,44 @@ until isReady then do dosometting
 ###
 одно и то же
 ###
+
+
+#================================
+#	@loop
+#   for diapason
+#================================
+myarr = ["RUSIA", "USA", "UK", "Germany"]
+
+upgrade = ( loopRrsult ) ->
+	loopRrsult
+
+# for i in [myarr...]
+# 	l upgrade i
+
+# for i in [0..5]
+# 	l upgrade i
+
+l upgrade i for i in [0..10]
+l upgrade i for i in [0..10] by 4 # увеличеть итерацыю i
+###
+вывести только
+четные числа
+###
+divide = ( num ) ->
+	num % 2 == 0 ? "Odd" : "Even"
+
+@pushArr = []
+
+# pushArr = (for myarr in [pushArr...] then l upgrade i)
+
+###
+when аналог if
+###
+
+# l upgrade i for i in [0..10] when divide i
+
+
+@pushArr = (i for i in [myarr...])
+
+l pushArr
+
