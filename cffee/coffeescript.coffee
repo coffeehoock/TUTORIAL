@@ -331,6 +331,10 @@ until isReady then do dosometting
 #	@loop
 #   for diapason
 #================================
+###
+перебор диапазона
+массива
+###
 myarr = ["RUSIA", "USA", "UK", "Germany"]
 
 upgrade = ( loopRrsult ) ->
@@ -366,3 +370,27 @@ when аналог if
 
 l pushArr
 
+
+#================================
+#	@loop
+#   for array
+#================================
+###
+перебор элементов
+массива
+###
+
+show = ( arr ) ->
+	l "элемент #{arr} массива #{} вывелся"
+	if arr.langth
+		arr.toString()
+
+filttr = ->
+
+@arrgoover = ["el", "a", "m", "v", "z"]
+### доп логика filttr ###
+# show el for el in arrgoover when filttr
+show el for el in arrgoover
+
+# remove show index for el, index in arrgoover
+show index for el, index in arrgoover
