@@ -400,10 +400,6 @@ show index for el, index in arrgoover
 #	@loop
 #   for var in obj
 #================================
-###
-
-###
-
 @objArr = {
 	obj1: {name: "Jon1"}
 	obj2: {name: "Jon2"}
