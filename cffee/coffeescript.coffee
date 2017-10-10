@@ -435,3 +435,59 @@ l value for own property, value of objArr
 свойства own
 ###
 l value for own property, value of objArr
+
+
+#================================
+#	@Object-oriented programming
+###
+			( OOP )				
+###
+#================================
+# class @jQattr
+# 	constructor: ->
+
+
+# for event in ["click", "mousemove","mouseover", "mousedown", "load", "TEST" ]
+# 	do ( event ) ->
+# 		jQattr::["on#{event}"] = ( callback ) ->
+# 			jQattr::on event, callback
+# 			return
+# 		return
+funСollback = ( collback ) ->
+	# collback if collback
+
+class @person
+	constructor: ( @name, @age ) ->
+	
+	getInfo: ->
+		"Name: #{@name} Age: #{@age}"
+
+	@myStaticNum: null
+
+	@myStaticFun: (n)->
+		@name + @myStaticNum + n
+		@myStaticNum if @myStaticNum?
+
+
+class @WebDeveloper extends person
+	constructor: ->
+		# super # все аргументы
+		super "jon" # назначить аргументы
+	
+	getInfo: ->
+		super
+		"Name: #{@name} Age: #{@age}"
+	
+	closureMethod: ->
+		_this = @
+		# self = this
+			# person self.age
+			# заменяет =>
+		funСollback =>
+			person @age
+
+###
+унаследовать
+аргументы super
+###
+@obj1 = new WebDeveloper('alex', 33)
