@@ -262,7 +262,7 @@ normslize = ( langth, vectors... ) ->
 then для записи
 на одной строчке
 ###
-
+# если не равно null undefined
 ### это ###
 if notmyName? then do  normslize
 ### и это ###
@@ -443,16 +443,17 @@ l value for own property, value of objArr
 			( OOP )				
 ###
 #================================
-# class @jQattr
-# 	constructor: ->
+class @jQattr
+	constructor: ->
 
 
-# for event in ["click", "mousemove","mouseover", "mousedown", "load", "TEST" ]
-# 	do ( event ) ->
-# 		jQattr::["on#{event}"] = ( callback ) ->
-# 			jQattr::on event, callback
-# 			return
-# 		return
+for event in ["click", "mousemove","mouseover", "mousedown", "load", "TEST" ]
+	do ( event ) ->
+		jQattr::["on#{event}"] = ( callback ) ->
+			jQattr::on event, callback
+			return
+		return
+
 funСollback = ( collback ) ->
 	# collback if collback
 
@@ -491,3 +492,15 @@ class @WebDeveloper extends person
 аргументы super
 ###
 @obj1 = new WebDeveloper('alex', 33)
+
+
+
+#================================
+#	@dop
+#================================
+upd = ( n ) ->
+	# n if n?
+	n ?= 0 
+	->
+		n++
+@counter = do upd
