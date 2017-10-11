@@ -496,6 +496,60 @@ class @WebDeveloper extends person
 
 
 #================================
+#	@Object-oriented programming
+###
+						( OOP )				
+###	
+				# инкпсуляцыя
+#================================
+
+class @A
+	constructor: ( apple ) ->
+		appleIncaps = apple or= 0
+
+		@get = -> 
+			appleIncaps
+
+		@set = ->
+			appleIncaps = apple
+
+@a = new A(222)
+
+
+
+
+#================================
+#	@Object-oriented programming
+###
+			( OOP )				
+###	
+  # Множественное Наследование
+#================================
+
+class @A
+	constructor: ( apple ) ->
+		@getA = -> 
+			true
+
+class @B extends @A
+	constructor: ( apple ) ->
+		super
+		@getB = -> 
+			true
+
+
+class @C extends @B
+	# constructor: ->
+		# super @B
+
+
+@a = new @C(222)
+
+@b = new @B(222)
+
+
+
+#================================
 #	@dop
 #================================
 upd = ( n ) ->
