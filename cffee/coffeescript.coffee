@@ -552,6 +552,15 @@ class @C extends @B
 #================================
 #	@dop
 #================================
+class @gatherInformation
+	# constructor: ->
+	getStatus: ->
+		@status
+
+
+l gatherInformation.prototype.getStatus.call(o)
+
+
 upd = ( n ) ->
 	# n if n?
 	n ?= 0 
