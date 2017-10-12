@@ -534,7 +534,7 @@ class @A
 class @B extends @A
 	constructor: ( apple ) ->
 		super
-		@getB = -> 
+		@getB = => 
 			true
 
 
@@ -543,7 +543,7 @@ class @C extends @B
 		# super @B
 
 
-@a = new @C(222)
+@c = new @C(222)
 
 @b = new @B(222)
 
