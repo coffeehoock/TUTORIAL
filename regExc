@@ -1,0 +1,7 @@
+# 	l strCoffee.match(/@/gi)
+# 	l "123/433/445".split('/') # создает массив
+# 	l "123/433/445".replace('/',':') #заменить первый
+# 	l "123-433-445".replace(/-/g,':') #заменить все
+# 	l /@/.test "@"
+# 	l /@/.exec "@"
+# 	l strCoffee.match(/\wcoffeehoock\b/)
