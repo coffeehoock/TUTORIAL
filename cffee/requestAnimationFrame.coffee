@@ -46,3 +46,22 @@ figure.onclick = ->
 			figure.style.transform = "scale(" + progress * 1 +")"
 			return
 	return
+
+
+
+
+#=====================
+# variant 2
+#=====================
+@recloop = ->
+	if figure.style.display is "none"
+		figure.style.display = "block"
+
+
+	requestAnimationFrame ->
+		if i <= 1
+			# figure.style.transform ="translate(#{i}px,0)"
+			figure.style.transform ="scale(#{i + 2})"
+			figure.style.opacity ="#{i}"
+			do recloop
+			l i += 0.015
