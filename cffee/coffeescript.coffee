@@ -552,6 +552,9 @@ class @C extends @B
 #================================
 #	@dop
 #================================
+@o = {}
+o.status = "active"
+
 class @gatherInformation
 	# constructor: ->
 	getStatus: ->

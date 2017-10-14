@@ -18,38 +18,32 @@ mv git-completion.bash .git-completion.bash
 
 git init
 
-                     #Связываем папку с удаленным репозиторием
+                 
 
 
-git remote add origin   https://github.com/codehook/test.git
+git remote rename origin myname
+git remote add добавить репозиторий
 
-		
-		     #Закачиваем код на удаленный репозиторий
+status
+1 stadia local ---red
+2 stadia add . ---green  git rm --cached filemame
+3 comit        ---white  git reset --hard ( HEAD~ bkb hass code )
 
-git push -u origin master
+master это ветка
+git branch список веток 
+git branch  branch-2 создать ветку
+git checkout branch-2 переключить ветку
 
-				#cкачать репозиторий 
+git branch -d branch-2 удалить ветку локально
 
+слить ветки
 
-		      #Добавляем все новые и измененные файлы
-
-git add .  #отправка в буфер
-git commit -m "message"  
-git push
-git status          
-
-
-git log #info
-cat .git/refs/heads/master
-
-git diff 					# сравнить файлы дериктории с буфером
-git diff --staged # сравнить файлы репозитория с буфером
+git branch master
+git merge  branch-2
 
 
 
+ 
 
-						#удаление и перемищение файлов
 
-git rm
-git mv
 
