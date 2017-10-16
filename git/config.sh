@@ -42,6 +42,12 @@ git branch master
 git merge  branch-2
 
 
+#Ваша ветка опережает «origin/master»
+git push origin master
+
+
+
+
 
  
 
