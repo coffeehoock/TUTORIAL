@@ -152,60 +152,58 @@ jQuery('#calculate').click(function(e){
 
 	jQuery.ajax({
         type: "GET",
-				url: window.wp_data.ajax_url,
+	url: window.wp_data.ajax_url,
+	data: {
+		action : 'my',
+		// тип помешения
+		shirinaPomeseniya     : parseFloat(jQuery('#shirina-pomeseniya').val()),
+		dlinnaPomeseniya      : parseFloat(jQuery('#dlinna-pomeseniya').val()),
+		visotaPomeseniya      : parseFloat(jQuery('#visota-pomeseniya').val()),
 
-				data: {
-		            action : 'my',
+		dlinnaUgla            : parseFloat(jQuery('#dlinna-ugla').val()),
+		shirinaUgla           : parseFloat(jQuery('#shirina-ugla').val()),
 
-		      // тип помешения
-					shirinaPomeseniya     : parseFloat(jQuery('#shirina-pomeseniya').val()),
-					dlinnaPomeseniya      : parseFloat(jQuery('#dlinna-pomeseniya').val()),
-					visotaPomeseniya      : parseFloat(jQuery('#visota-pomeseniya').val()),
+		gubinaKolonniy        : parseFloat(jQuery('#gubina-kolonniy').val()),
+		sirinaKolonniy        : parseFloat(jQuery('#sirina-kolonniy').val()),
 
-					dlinnaUgla            : parseFloat(jQuery('#dlinna-ugla').val()),
-					shirinaUgla           : parseFloat(jQuery('#shirina-ugla').val()),
+		kolihestvoSten        : parseFloat(jQuery('#kolihestvo-sten').val()),
+		dlinnaSten            : parseFloat(jQuery('#dlinna-sten').val()),
+		visotaPomesenia       : parseFloat(jQuery('#visota-pomesenia').val()),
 
-					gubinaKolonniy        : parseFloat(jQuery('#gubina-kolonniy').val()),
-					sirinaKolonniy        : parseFloat(jQuery('#sirina-kolonniy').val()),
+		// Размеры проемов //
 
-					kolihestvoSten        : parseFloat(jQuery('#kolihestvo-sten').val()),
-					dlinnaSten            : parseFloat(jQuery('#dlinna-sten').val()),
-					visotaPomesenia       : parseFloat(jQuery('#visota-pomesenia').val()),
+		// оконный проем
+		kolihestvoProemov     : parseFloat(jQuery('#kolihestvo-proemov').val()),
+		visotaOkna            : parseFloat(jQuery('#visota-okna').val()),
+		sirinaOkna            : parseFloat(jQuery('#sirina-okna').val()),
+		// Балконный блок
+		visotaBalkonDveri     : parseFloat(jQuery('#visota-balkon-dveri').val()),
+		sirinaBalkkonDveri    : parseFloat(jQuery('#sirina-balkkon-dveri').val()),
+		visotaBalkonOkna      : parseFloat(jQuery('#visota-balkon-okna').val()),
+		sirinaBalkonOkna      : parseFloat(jQuery('#sirina-balkon-okna').val()),
+		// Дверной проем
+		kolihestvoDverProemov : parseFloat(jQuery('#kolihestvo-dver-proemov').val()),
+		visotaDveri           : parseFloat(jQuery('#visota-dveri').val()),
+		shirinaDveri          : parseFloat(jQuery('#shirina-dveri').val())
 
-					// Размеры проемов //
-
-					// оконный проем
-					kolihestvoProemov     : parseFloat(jQuery('#kolihestvo-proemov').val()),
-					visotaOkna            : parseFloat(jQuery('#visota-okna').val()),
-					sirinaOkna            : parseFloat(jQuery('#sirina-okna').val()),
-					// Балконный блок
-					visotaBalkonDveri     : parseFloat(jQuery('#visota-balkon-dveri').val()),
-					sirinaBalkkonDveri    : parseFloat(jQuery('#sirina-balkkon-dveri').val()),
-					visotaBalkonOkna      : parseFloat(jQuery('#visota-balkon-okna').val()),
-					sirinaBalkonOkna      : parseFloat(jQuery('#sirina-balkon-okna').val()),
-					// Дверной проем
-					kolihestvoDverProemov : parseFloat(jQuery('#kolihestvo-dver-proemov').val()),
-					visotaDveri           : parseFloat(jQuery('#visota-dveri').val()),
-					shirinaDveri          : parseFloat(jQuery('#shirina-dveri').val())
-
-		        },
+		},
 
         success: function (response) {
 
-			if (response != 'not_reg') {
-				var results = JSON.parse(response);
+		if (response != 'not_reg') {
+			var results = JSON.parse(response);
 
-				// resyltat
-				jQuery('#dlinna-otkosov + .result').html(results.dlinna_otkosov + ' mm');
-				jQuery('#dlinna-podokonnikov + .result').html(results.dlinna_podokonnikov + ' mm');
-				jQuery('#ploshad-proemov + .result').html(results.ploshad_proemov + ' mm');
-				jQuery('#perimetor-pomesenia + .result').html(results.perimetor_pomesenia + ' mm');
-				jQuery('#ploshad-pola + .result').html(results.ploshad_pola + ' mm');
-				jQuery('#ploshad-sten + .result').html(results.ploshad_sten + ' mm');
+			// resyltat
+			jQuery('#dlinna-otkosov + .result').html(results.dlinna_otkosov + ' mm');
+			jQuery('#dlinna-podokonnikov + .result').html(results.dlinna_podokonnikov + ' mm');
+			jQuery('#ploshad-proemov + .result').html(results.ploshad_proemov + ' mm');
+			jQuery('#perimetor-pomesenia + .result').html(results.perimetor_pomesenia + ' mm');
+			jQuery('#ploshad-pola + .result').html(results.ploshad_pola + ' mm');
+			jQuery('#ploshad-sten + .result').html(results.ploshad_sten + ' mm');
 
-			} else {
-				redirectPopup();
-			}
+		} else {
+			redirectPopup();
+		}
         }
     });
 });
