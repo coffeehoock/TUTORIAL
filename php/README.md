@@ -1,1 +1,1 @@
-[https://funtecs.com/url/](https://funtecs.com/url/)
+[escaping ](https://funtecs.com/url/)
