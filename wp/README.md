@@ -6,5 +6,6 @@
 ***
 [ajax video](https://www.youtube.com/watch?v=3Hvq-_p470k)
 ***
+[xhr](https://habrahabr.ru/company/dataart/blog/271189/)
 
 
