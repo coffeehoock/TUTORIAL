@@ -1,4 +1,4 @@
-
+__FILE_INDEX__ = "resp.php";
 ========
 jQuery
 ========
@@ -13,3 +13,14 @@ axios.post(__FILE_INDEX__, { mynum: 44})
   .then(function (response) {
     console.log(response.data.foo);
   })
+========
+php resp and data
+========
+  
+<?php 
+$mypost = $_REQUEST['mynum'];
+$my_array = array(
+    "foo" => $mypost,
+    "bar" => "foo",
+);
+echo json_encode($my_array);
