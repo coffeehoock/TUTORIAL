@@ -194,6 +194,9 @@ function calc_include_user()
  * calc_include @shortcode
  */
 add_shortcode('calc_include', 'calc_include_user');
+/**
+ * @echo [calc_include]
+ */
 
 
 /**
