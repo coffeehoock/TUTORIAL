@@ -15,3 +15,5 @@
 [dibug](https://habrahabr.ru/post/142888/)
 ***
 [lodash](https://learn.javascript.ru/template-lodash)
+***
+[определить IE](https://htmler.ru/2014/07/28/opredelit-ie-javascript/)
