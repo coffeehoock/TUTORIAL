@@ -13,6 +13,14 @@ axios.post(__FILE_INDEX__, { mynum: 44})
   .then(function (response) {
     console.log(response.data.foo);
   })
+
+========
+XMLHttpRequest
+========
+var xhr = new XMLHttpRequest();
+xhr.open('GET', __FILE_INDEX__, false);
+xhr.send();
+  
 ========
 php resp and data
 ========
