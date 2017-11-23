@@ -20,6 +20,7 @@ XMLHttpRequest
 var xhr = new XMLHttpRequest();
 xhr.open('GET', __FILE_INDEX__, false);
 xhr.send();
+xhr.response
   
 ========
 php resp and data
