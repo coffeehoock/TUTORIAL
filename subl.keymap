@@ -1,0 +1,20 @@
+[
+	{ "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
+	{ "keys": ["d","f"], "command": "exit_insert_mode",
+		"context":
+		[
+			{"key": "setting.command_mode", "operand": false},
+			{"key": "setting.is_widget", "operand": false}
+		]
+	},
+
+
+
+
+	// { "keys": ["k", "p"], "command": "gist_list" },
+	// { "keys": ["h", "j"], "command": "insert_gist_list" },
+	// { "keys": ["k", "l"], "command": "gist_add_file" },
+	// { "keys": ["j", "k"], "command": "gist_gitio" }
+
+]
