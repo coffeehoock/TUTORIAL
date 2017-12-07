@@ -1,6 +1,0 @@
-sleep 1
-echo "hello cosehooc"
-sleep 2
-sudo lsof -i
-sleep 3
-echo "finyhs comand"
