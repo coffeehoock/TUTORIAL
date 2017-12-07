@@ -26,3 +26,4 @@ source .bashrc
 
 
 sans regular cjk TC
+sudo lsof -i
