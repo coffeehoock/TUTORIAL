@@ -16,3 +16,4 @@ INSERT INTO index_test
   (null,'pavel','russia');
 
 CREATE INDEX index_ID ON index_test (index_ID);
+DROP INDEX ix ON index_test;
