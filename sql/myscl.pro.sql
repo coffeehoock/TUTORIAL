@@ -15,5 +15,5 @@ INSERT INTO index_test
   VALUES
   (null,'pavel','russia');
 
-CREATE INDEX index_ID ON index_test (index_ID);
+CREATE INDEX ix ON index_test (index_ID);
 DROP INDEX ix ON index_test;
