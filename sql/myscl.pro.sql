@@ -32,6 +32,9 @@ INSERT INTO activetis (act_id,activite,user_id) VALUES
 (NULL,'dogs',(SELECT user_id FROM contacts WHERE name = 'Petiya'));
 
 
+--связи между таблицами
+
+
 
 
 
