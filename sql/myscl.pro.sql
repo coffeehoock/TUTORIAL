@@ -16,7 +16,7 @@ CREATE TABLE index_test(
 
 CREATE TABLE contacts(
   user_id INT AUTO_INCREMENT PRIMARY KEY, --INT целое число
-  name VARCHAR (30) NOT NULL
+  name VARCHAR (30) NOT NULL --NOT NULL не должно быть пустым
 );
 SHOW TABLES;
 SELECT * FROM contacts;
