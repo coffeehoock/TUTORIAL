@@ -5,7 +5,8 @@ SHOW TABLES FROM index_join_and_self; --список столбцов в таб�
 SHOW INDEX FROM index_test FROM index_join_and_self; --список индексов
 DESC index_test; --структура таблицы
 
-
+DELETE FROM contacts WHERE user_id;
+ALTER TABLE contacts AUTO_INCREMENT = 0;
 
 CREATE TABLE index_test(
   id INT AUTO_INCREMENT PRIMARY KEY, --PRIMARY KEY не повторять значение NOT NULL обязательное заполнение
@@ -14,7 +15,7 @@ CREATE TABLE index_test(
 );
 
 CREATE TABLE contacts(
-  user_id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT AUTO_INCREMENT PRIMARY KEY, --INT целое число
   name VARCHAR (30) NOT NULL
 );
 SHOW TABLES;
@@ -30,7 +31,3 @@ INSERT INTO index_test
 
 CREATE INDEX ix ON index_test (index_ID);
 DROP INDEX ix ON index_test;
-
-
-DELETE FROM contacts WHERE user_id;
-ALTER TABLE contacts AUTO_INCREMENT = 0; 
