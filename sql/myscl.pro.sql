@@ -5,6 +5,9 @@ SHOW TABLES FROM index_join_and_self; --список столбцов в таб�
 SHOW INDEX FROM index_test FROM index_join_and_self; --список индексов
 DESC index_test; --структура таблицы
 
+DELETE FROM activetis WHERE act_id;
+
+
 DELETE FROM contacts WHERE user_id;
 ALTER TABLE contacts AUTO_INCREMENT = 0;
 
