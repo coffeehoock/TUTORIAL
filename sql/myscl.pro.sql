@@ -25,6 +25,10 @@ CREATE TABLE activetis(
   user_id INT,
   FOREIGN KEY (user_id) REFERENCES contacts (user_id));
 
+INSERT INTO activetis (act_id,activite,user_id) VALUES
+(NULL,'dogs',(SELECT user_id FROM contacts WHERE name = 'Petiya'));
+
+
 
 
 
