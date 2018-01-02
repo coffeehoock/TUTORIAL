@@ -18,6 +18,19 @@ CREATE TABLE contacts(
   user_id INT AUTO_INCREMENT PRIMARY KEY, --INT целое число
   name VARCHAR (30) NOT NULL --NOT NULL не должно быть пустым
 );
+
+CREATE TABLE activetis(
+  act_id INT AUTO_INCREMENT PRIMARY KEY,
+  activite VARCHAR(20) NOT NULL,
+  user_id INT,
+  FOREIGN KEY (user_id) REFERENCES contacts (user_id));
+
+
+
+
+
+
+
 SHOW TABLES;
 SELECT * FROM contacts;
 DESC contacts;
