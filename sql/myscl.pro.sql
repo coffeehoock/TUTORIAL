@@ -63,7 +63,7 @@ ADD FOREIGN KEY (profession_id) REFERENCES professions (profession_id);
 
 UPDATE user_jobj
 SET profession_id = 1
-WHERE user_name IN ('Jeniy','Kolia');
+WHERE user_name IN ('Jeniy','Kolia'); --IN -там где имя Jeniy и Kolia установить 1
 
 
 
