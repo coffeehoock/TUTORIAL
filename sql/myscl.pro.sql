@@ -116,6 +116,13 @@ CREATE TABLE students_casses(
   FOREIGN KEY (class_id) REFERENCES classes(class_id)
 );
 
+INSERT INTO students_casses(students_id,class_id)
+VALUES
+(1,2); --2B
+
+INSERT INTO students_casses(students_id,class_id)
+VALUES
+(1,3); --1A
 
 
 
