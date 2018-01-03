@@ -18,17 +18,19 @@ ALTER TABLE contacts AUTO_INCREMENT = 0;
 
 --один к однеому
 CREATE TABLE persons(
-persons_id INT AUTO_INCREMENT PRIMARY KEY,
-name VARCHAR (30) NOT NULL);
+  persons_id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR (30) NOT NULL
+);
 
 INSERT INTO persons (persons_id,name)
 VALUES
 (NULL,'Petr');
 
 CREATE TABLE locations(
-person_location_id INT NOT NULL PRIMARY KEY,
-name_locations VARCHAR (20),
-FOREIGN KEY (person_location_id) REFERENCES persons (persons_id));
+  person_location_id INT NOT NULL PRIMARY KEY,
+  name_locations VARCHAR (20),
+  FOREIGN KEY (person_location_id) REFERENCES persons (persons_id)
+);
 
 INSERT INTO locations (person_location_id,name_locations)
 VALUES
@@ -50,8 +52,8 @@ VALUES
 (NULL, 'Petr', NULL);
 
 CREATE TABLE professions(
-profession_id INT PRIMARY KEY,
-profession_name VARCHAR(20) NOT NULL
+  profession_id INT PRIMARY KEY,
+  profession_name VARCHAR(20) NOT NULL
 );
 
 INSERT INTO professions(profession_id,profession_name)
@@ -80,7 +82,8 @@ CREATE TABLE activetis(
   act_id INT AUTO_INCREMENT PRIMARY KEY,
   activite VARCHAR(20) NOT NULL,
   user_id INT,
-  FOREIGN KEY (user_id) REFERENCES contacts (user_id));
+  FOREIGN KEY (user_id) REFERENCES contacts (user_id)
+);
 
 INSERT INTO activetis (act_id,activite,user_id) VALUES
 (NULL,'dogs',(SELECT user_id FROM contacts WHERE name = 'Petiya'));
@@ -88,13 +91,32 @@ INSERT INTO activetis (act_id,activite,user_id) VALUES
 
 --многие ко многим
 CREATE TABLE students(
-students_id INT PRIMARY KEY AUTO_INCREMENT,
-students_name VARCHAR(20) NOT NULL
+  students_id INT PRIMARY KEY AUTO_INCREMENT,
+  students_name VARCHAR(20) NOT NULL
 );
 
 INSERT INTO students(students_id,students_name)
 VALUES
 (NULL,'Petr');
+
+CREATE TABLE classes(
+  class_id INT PRIMARY KEY AUTO_INCREMENT,
+  class_name VARCHAR(20) NOT NULL
+);
+
+INSERT INTO classes(class_id,class_name)
+VALUES
+(NULL,'1B');
+
+CREATE TABLE students_casses(
+  students_id INT NOT NULL,
+  class_id INT NOT NULL,
+  PRIMARY KEY (students_id,class_id),
+  FOREIGN KEY (students_id) REFERENCES students (students_id),
+  FOREIGN KEY (class_id) REFERENCES classes(class_id)
+);
+
+
 
 
 
