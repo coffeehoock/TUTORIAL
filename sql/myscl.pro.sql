@@ -11,11 +11,12 @@ DELETE FROM activetis WHERE act_id;
 DELETE FROM contacts WHERE user_id;
 ALTER TABLE contacts AUTO_INCREMENT = 0;
 
-CREATE TABLE index_test(
-  id INT AUTO_INCREMENT PRIMARY KEY, --PRIMARY KEY не повторять значение NOT NULL обязательное заполнение
-  name VARCHAR (30),
-  index_ID VARCHAR (10)
-);
+
+--=====================
+--связи между таблицами
+--=====================
+
+--один ко многим
 
 CREATE TABLE contacts(
   user_id INT AUTO_INCREMENT PRIMARY KEY, --INT целое число
@@ -32,13 +33,15 @@ INSERT INTO activetis (act_id,activite,user_id) VALUES
 (NULL,'dogs',(SELECT user_id FROM contacts WHERE name = 'Petiya'));
 
 
---связи между таблицами
 
 
+--index
 
-
-
-
+CREATE TABLE index_test(
+  id INT AUTO_INCREMENT PRIMARY KEY, --PRIMARY KEY не повторять значение NOT NULL обязательное заполнение
+  name VARCHAR (30),
+  index_ID VARCHAR (10)
+);
 
 
 SHOW TABLES;
