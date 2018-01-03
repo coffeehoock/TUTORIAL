@@ -86,6 +86,17 @@ INSERT INTO activetis (act_id,activite,user_id) VALUES
 (NULL,'dogs',(SELECT user_id FROM contacts WHERE name = 'Petiya'));
 
 
+--многие ко многим
+CREATE TABLE students(
+students_id INT PRIMARY KEY AUTO_INCREMENT,
+students_name VARCHAR(20) NOT NULL
+);
+
+INSERT INTO students(students_id,students_name)
+VALUES
+(NULL,'Petr');
+
+
 
 
 --index
