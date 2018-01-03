@@ -16,10 +16,25 @@ ALTER TABLE contacts AUTO_INCREMENT = 0;
 --связи между таблицами
 --=====================
 
---один ко многим
+--один к однеому
 CREATE TABLE persons(
 persons_id INT AUTO_INCREMENT PRIMARY KEY,
 name VARCHAR (30) NOT NULL);
+
+INSERT INTO persons (persons_id,name)
+VALUES
+(NULL,'Petr');
+
+CREATE TABLE locations(
+person_location_id INT NOT NULL PRIMARY KEY,
+name_locations VARCHAR (20),
+FOREIGN KEY (person_location_id) REFERENCES persons (persons_id));
+
+INSERT INTO locations (person_location_id,name_locations)
+VALUES
+(1, 'Moscow');
+
+
 
 
 --один ко многим
