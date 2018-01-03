@@ -54,6 +54,19 @@ profession_id INT PRIMARY KEY,
 profession_name VARCHAR(20) NOT NULL
 );
 
+INSERT INTO professions(profession_id,profession_name)
+VALUES
+(1,'malar');
+
+ALTER TABLE user_jobj
+ADD FOREIGN KEY (profession_id) REFERENCES professions (profession_id);
+
+UPDATE user_jobj
+SET profession_id = 1
+WHERE user_name IN ('Jeniy','Kolia');
+
+
+
 
 
 
