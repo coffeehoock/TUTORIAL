@@ -17,7 +17,12 @@ ALTER TABLE contacts AUTO_INCREMENT = 0;
 --=====================
 
 --один ко многим
+CREATE TABLE persons(
+persons_id INT AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR (30) NOT NULL);
 
+
+--один ко многим
 CREATE TABLE contacts(
   user_id INT AUTO_INCREMENT PRIMARY KEY, --INT целое число
   name VARCHAR (30) NOT NULL --NOT NULL не должно быть пустым
