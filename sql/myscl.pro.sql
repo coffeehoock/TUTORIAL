@@ -38,6 +38,26 @@ VALUES
 
 
 --один ко многим
+
+CREATE TABLE user_jobj(
+user_id INT PRIMARY KEY AUTO_INCREMENT,
+user_name VARCHAR (20) NOT NULL,
+profession_id INT
+);
+
+INSERT INTO user_jobj (user_id,user_name,profession_id)
+VALUES
+(NULL, 'Petr', NULL);
+
+CREATE TABLE professions(
+profession_id INT PRIMARY KEY,
+profession_name VARCHAR(20) NOT NULL
+);
+
+
+
+
+
 CREATE TABLE contacts(
   user_id INT AUTO_INCREMENT PRIMARY KEY, --INT целое число
   name VARCHAR (30) NOT NULL --NOT NULL не должно быть пустым
