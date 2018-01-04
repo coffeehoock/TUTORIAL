@@ -24,10 +24,16 @@ INSERT INTO books VALUE (NULL ,'уникальная вселенная', NULL);
 INSERT INTO books VALUE (NULL ,'физика просто', 2);
 INSERT INTO books VALUE (NULL ,'рфссказ о цветах', 1);
 
---ререкресный метод
+--Перекресный соединение CROSS
 SELECT b.book_name, p.publisher_name
 FROM books b
 CROSS JOIN publishers p;
+
+--Естественное соединение NATURAL
+SELECT b.book_name, p.publisher_name
+FROM books b
+NATURAL JOIN publishers p;
+
 
 
 
