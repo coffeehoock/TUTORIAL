@@ -49,7 +49,7 @@ FROM books b
 INNER JOIN publishers p
 ON b.publisher_id = p.publisher_id; --ON b.publisher_id <> p.publisher_id;
 
---внешнее соединение INNER
+--внешнее соединение LEFT RIGHT
 SELECT books.book_name, publishers.publisher_name
 FROM books LEFT JOIN publishers
 ON books.book_id = publishers.publisher_id;
@@ -58,6 +58,26 @@ SELECT books.book_name, publishers.publisher_name
 FROM books LEFT JOIN publishers
 USING (publisher_id);
 
+
+
+
+SELECT books.book_name, publishers.publisher_name
+FROM books LEFT JOIN publishers
+ON books.publisher_id = publishers.publisher_id;
+
+
+SELECT books.book_name, publishers.publisher_name
+FROM books RIGHT JOIN publishers
+USING (publisher_id);
+
+
+
+
+
+SELECT books.book_name, publishers.publisher_name
+FROM books LEFT JOIN publishers
+ON books.publisher_id = publishers.publisher_id
+WHERE books.publisher_id IS NULL;
 
 
 
