@@ -191,3 +191,6 @@ FROM books b NATURAL JOIN publishers p INNER JOIN reviews r
 ON b.book_id = r.reviews_id
 WHERE r.reviews_rank
 IN (4,3,8);
+
+
+SELECT * FROM books WHERE book_name LIKE '%рфссказ%';
