@@ -125,7 +125,8 @@ VALUES
 (1,3); --1A
 
 
-
+SELECT s.students_name, c.class_name
+FROM students s  NATURAL JOIN students_casses NATURAL JOIN classes c;
 
 
 --index
