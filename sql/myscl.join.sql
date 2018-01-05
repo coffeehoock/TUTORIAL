@@ -194,3 +194,5 @@ IN (4,3,8);
 
 
 SELECT * FROM books WHERE book_name LIKE '%рфссказ%';
+SELECT * FROM books WHERE book_id IN (1,2);
+
