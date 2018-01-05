@@ -137,5 +137,57 @@ WHERE  book_id = 1;
 UPDATE books SET price = 100
 WHERE  book_id IN (5,6,7);
 
+SELECT
+--столбцы которве будут выводиться
+b.book_name,
+r.reviews_rank,
+r.reviews_comment,
+b.price,
+p.publisher_name
+FROM books b NATURAL JOIN publishers p INNER JOIN reviews r
+ON b.book_id = r.reviews_id;
 
 
+
+
+SELECT
+b.book_name книга,
+r.reviews_rank оценка,
+r.reviews_comment коментарий,
+b.price цена,
+p.publisher_name мздатель
+FROM books b NATURAL JOIN publishers p INNER JOIN reviews r
+ON b.book_id = r.reviews_id;
+
+
+SELECT
+b.book_name,
+r.reviews_rank,
+r.reviews_comment,
+b.price,
+p.publisher_name
+FROM books b NATURAL JOIN publishers p INNER JOIN reviews r
+ON b.book_id = r.reviews_id
+WHERE b.price > 50;
+
+SELECT
+b.book_name,
+r.reviews_rank,
+r.reviews_comment,
+b.price,
+p.publisher_name
+FROM books b NATURAL JOIN publishers p INNER JOIN reviews r
+ON b.book_id = r.reviews_id
+WHERE r.reviews_rank
+IN (SELECT r.reviews_rank FROM reviews);
+
+SELECT
+b.book_name,
+r.reviews_rank,
+r.reviews_comment,
+b.price,
+p.publisher_name
+FROM books b NATURAL JOIN publishers p INNER JOIN reviews r
+ON b.book_id = r.reviews_id
+WHERE r.reviews_rank
+IN (4,3,8);
