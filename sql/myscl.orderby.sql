@@ -37,3 +37,7 @@ SELECT fnames_list, reputation, rank
 FROM users
 ORDER BY reputation DESC;
 
+ALTER TABLE users DROP lnames_list;
+
+
+
