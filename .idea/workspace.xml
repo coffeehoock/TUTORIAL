@@ -70,8 +70,8 @@
         <entry file="file://$PROJECT_DIR$/sql/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="66">
-                <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+              <first_editor relative-caret-position="154">
+                <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -94,9 +94,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>upd</find>
-      <find>PRIMARY</find>
       <find>AFTER</find>
       <find>crea</find>
+      <find>PRIMARY</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -217,7 +217,7 @@
       <workItem from="1514975848135" duration="8580000" />
       <workItem from="1515064264937" duration="7769000" />
       <workItem from="1515146570732" duration="17760000" />
-      <workItem from="1515268714668" duration="3897000" />
+      <workItem from="1515268714668" duration="4489000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1514897562107</created>
@@ -429,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515273614924</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="order by">
+      <created>1515274400323</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1515274400323</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42577000" />
+    <option name="totallyTimeSpent" value="43169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
@@ -792,8 +799,8 @@
     <entry file="file://$PROJECT_DIR$/sql/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="66">
-            <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <first_editor relative-caret-position="154">
+            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
