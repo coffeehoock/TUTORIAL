@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90377448-bc2a-4fa9-8739-24622c2b7a98" name="Default" comment="like2">
-      <change beforePath="" afterPath="$PROJECT_DIR$/shell/alias.sh" />
+    <list default="true" id="90377448-bc2a-4fa9-8739-24622c2b7a98" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/sql/myscl.orderby.sql" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="myscl.pro.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1574">
-              <caret line="128" column="69" lean-forward="false" selection-start-line="128" selection-start-column="69" selection-end-line="128" selection-end-column="69" />
+            <state relative-caret-position="185">
+              <caret line="134" column="46" lean-forward="false" selection-start-line="134" selection-start-column="39" selection-end-line="134" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -39,7 +39,7 @@
       <file leaf-file-name="table.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/table.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="1122">
               <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
               <folding />
             </state>
@@ -49,18 +49,28 @@
       <file leaf-file-name="myscl.join.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="196" column="43" lean-forward="true" selection-start-line="196" selection-start-column="43" selection-end-line="196" selection-end-column="43" />
+            <state relative-caret-position="88">
+              <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alias.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myscl.orderby.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sql/myscl.orderby.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alias.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shell/alias.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -71,6 +81,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>upd</find>
+      <find>PRIMARY</find>
+      <find>crea</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,6 +97,7 @@
         <option value="$PROJECT_DIR$/sql/myscl.pro.sql" />
         <option value="$PROJECT_DIR$/sql/myscl.join.sql" />
         <option value="$PROJECT_DIR$/shell/alias.sh" />
+        <option value="$PROJECT_DIR$/sql/myscl.orderby.sql" />
       </list>
     </option>
   </component>
@@ -145,8 +158,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,8 +168,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/shell" />
       <recent name="$PROJECT_DIR$/sql" />
+      <recent name="$PROJECT_DIR$/shell" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -188,7 +201,8 @@
       <workItem from="1514896752660" duration="4378000" />
       <workItem from="1514975848135" duration="8580000" />
       <workItem from="1515064264937" duration="7769000" />
-      <workItem from="1515146570732" duration="16697000" />
+      <workItem from="1515146570732" duration="17760000" />
+      <workItem from="1515268714668" duration="1107000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1514897562107</created>
@@ -379,11 +393,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515168501863</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="alias">
+      <created>1515175487437</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1515175487437</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37617000" />
+    <option name="totallyTimeSpent" value="39787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
@@ -427,13 +448,46 @@
     <MESSAGE value="add join" />
     <MESSAGE value="join" />
     <MESSAGE value="like" />
-    <option name="LAST_COMMIT_MESSAGE" value="like" />
+    <MESSAGE value="alias" />
+    <option name="LAST_COMMIT_MESSAGE" value="alias" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2816">
+          <caret line="128" column="69" lean-forward="false" selection-start-line="128" selection-start-column="69" selection-end-line="128" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/table.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell/alias.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4312">
+          <caret line="196" column="43" lean-forward="true" selection-start-line="196" selection-start-column="43" selection-end-line="196" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -650,25 +704,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/myscl.podzapros.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1574">
-          <caret line="128" column="69" lean-forward="false" selection-start-line="128" selection-start-column="69" selection-end-line="128" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/myscl.podzapros.sql" />
     <entry file="file://$PROJECT_DIR$/sql/table.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="1122">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
           <folding />
         </state>
@@ -678,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,22 +724,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="196" column="43" lean-forward="true" selection-start-line="196" selection-start-column="43" selection-end-line="196" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shell/alias.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="134" column="46" lean-forward="false" selection-start-line="134" selection-start-column="39" selection-end-line="134" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/myscl.orderby.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding />
         </state>
       </provider>
