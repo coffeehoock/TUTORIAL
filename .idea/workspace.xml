@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="90377448-bc2a-4fa9-8739-24622c2b7a98" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/sql/myscl.orderby.sql" afterPath="$PROJECT_DIR$/sql/myscl.orderby.sql" />
+      <change beforePath="$PROJECT_DIR$/sql/README.md" afterPath="$PROJECT_DIR$/sql/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,12 +56,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myscl.orderby.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myscl.orderby.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/myscl.orderby.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
+            <state relative-caret-position="487">
               <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sql/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="66">
+                <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -99,6 +112,7 @@
         <option value="$PROJECT_DIR$/sql/myscl.join.sql" />
         <option value="$PROJECT_DIR$/shell/alias.sh" />
         <option value="$PROJECT_DIR$/sql/myscl.orderby.sql" />
+        <option value="$PROJECT_DIR$/sql/README.md" />
       </list>
     </option>
   </component>
@@ -203,7 +217,7 @@
       <workItem from="1514975848135" duration="8580000" />
       <workItem from="1515064264937" duration="7769000" />
       <workItem from="1515146570732" duration="17760000" />
-      <workItem from="1515268714668" duration="3206000" />
+      <workItem from="1515268714668" duration="3897000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1514897562107</created>
@@ -408,11 +422,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515271136409</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="order by">
+      <created>1515273614924</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1515273614924</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41886000" />
+    <option name="totallyTimeSpent" value="42577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
@@ -762,9 +783,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/myscl.orderby.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
+        <state relative-caret-position="487">
           <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="66">
+            <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
