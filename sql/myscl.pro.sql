@@ -142,10 +142,10 @@ SHOW TABLES;
 SELECT * FROM contacts;
 DESC contacts;
 
-SELECT * FROM `index_test`;
+SELECT * FROM index_test;
 
 INSERT INTO index_test
-  (id,name,`index_ID`)
+  (id,name,index_ID)
   VALUES
   (null,'pavel','russia');
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90377448-bc2a-4fa9-8739-24622c2b7a98" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/javascript/resize.js" />
+    <list default="true" id="90377448-bc2a-4fa9-8739-24622c2b7a98" name="Default" comment="resize">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/sql/myscl.pro.sql" afterPath="$PROJECT_DIR$/sql/myscl.pro.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="myscl.pro.sql" pinned="false" current-in-tab="false">
+      <file leaf-file-name="myscl.pro.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="881">
+              <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,9 +39,53 @@
       <file leaf-file-name="table.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/table.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
+            <state relative-caret-position="-1297">
               <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
-              <folding />
+              <folding>
+                <marker date="1514638267112" expanded="true" signature="257:323" ph="CREATE TABLE... table_test" />
+                <marker date="1514638267112" expanded="true" signature="344:458" ph="DROP TABLE t... " />
+                <marker date="1514638267112" expanded="true" signature="487:610" ph="UPDATE table_test... " />
+                <marker date="1514638267112" expanded="true" signature="808:861" ph="ALTER TABLE table_test... " />
+                <marker date="1514638267112" expanded="true" signature="942:993" ph="DELETE FROM table_test... " />
+                <marker date="1514638267112" expanded="true" signature="1151:1175" ph="SELECT * FRO... table_test" />
+                <marker date="1514638267112" expanded="true" signature="1201:1228" ph="SELECT name table_test" />
+                <marker date="1514638267112" expanded="true" signature="1328:1387" ph="SELECT * FRO... table_test" />
+                <marker date="1514638267112" expanded="true" signature="1443:1491" ph="SELECT * FRO... table_test" />
+                <marker date="1514638267112" expanded="true" signature="1493:1548" ph="SELECT * FRO... table_test" />
+                <marker date="1514638267112" expanded="true" signature="1615:1660" ph="SELECT * FRO... table_test" />
+                <marker date="1514638267112" expanded="true" signature="1718:1763" ph="SELECT * FRO... table_test" />
+                <marker date="1514638267112" expanded="true" signature="1765:1811" ph="SELECT * FRO... table_test" />
+                <marker date="1514638267112" expanded="true" signature="1813:1891" ph="SELECT * FRO... table_test" />
+                <marker date="1514638267112" expanded="true" signature="2030:2091" ph="SELECT * FRO... table_test" />
+                <marker date="1514638267112" expanded="true" signature="2122:2165" ph="SELECT * FRO... table_test" />
+                <marker date="1514638267112" expanded="true" signature="2197:2239" ph="SELECT * FRO... table_test" />
+                <marker date="1514638267112" expanded="true" signature="2373:2568" ph="/*LIMIT пред... " />
+                <marker date="1514638267112" expanded="true" signature="2571:2623" ph="SELECT * FRO... table_test" />
+                <marker date="1514638267112" expanded="true" signature="2627:2659" ph="SELECT * FRO... table_test" />
+                <marker date="1514638267112" expanded="true" signature="2661:3378" ph="SELECT это п... " />
+                <marker date="1514638267112" expanded="true" signature="3482:3513" ph="SELECT COUNT... table_test" />
+                <marker date="1514638267112" expanded="true" signature="3515:3562" ph="SELECT COUNT... table_test" />
+                <marker date="1514638267112" expanded="true" signature="3603:3656" ph="SELECT price... table_test" />
+                <marker date="1514638267112" expanded="true" signature="3658:3735" ph="SELECT price... table_test" />
+                <marker date="1514638267112" expanded="true" signature="3793:3830" ph="SELECT SUM(d... table_test" />
+                <marker date="1514638267112" expanded="true" signature="3831:3896" ph="SELECT categ... table_test" />
+                <marker date="1514638267112" expanded="true" signature="3918:3955" ph="SELECT MAX(d... table_test" />
+                <marker date="1514638267112" expanded="true" signature="3957:3994" ph="SELECT MIN(d... table_test" />
+                <marker date="1514638267112" expanded="true" signature="3996:4033" ph="SELECT AVG(d... table_test" />
+                <marker date="1514638267112" expanded="true" signature="4051:4110" ph="SELECT price... table_test" />
+                <marker date="1514638267112" expanded="true" signature="4112:4183" ph="SELECT name,... table_test" />
+                <marker date="1514638267112" expanded="true" signature="4207:4276" ph="SELECT price... table_test" />
+                <marker date="1514638267112" expanded="true" signature="4278:4344" ph="SELECT price... table_test" />
+                <marker date="1514638267112" expanded="true" signature="5245:5302" ph="CREATE TABLE... table_two" />
+                <marker date="1514638267112" expanded="true" signature="5304:5327" ph="SELECT * FRO... table_two" />
+                <marker date="1514638267112" expanded="true" signature="5329:5352" ph="SELECT * FRO... table_one" />
+                <marker date="1514638267112" expanded="true" signature="5355:5391" ph="SELECT * FRO... table_one" />
+                <marker date="1514638267112" expanded="true" signature="5434:5505" ph="SELECT album... table_one" />
+                <marker date="1514638267112" expanded="true" signature="5539:5610" ph="SELECT * FRO... table_one" />
+                <marker date="1514638267112" expanded="true" signature="5634:5710" ph="SELECT * FRO... table_one" />
+                <marker date="1514638267112" expanded="true" signature="5712:5880" ph="SELECT album... table_one" />
+                <marker date="1514638267112" expanded="true" signature="5884:6103" ph="/*Здесь мы х... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,7 +103,7 @@
       <file leaf-file-name="myscl.orderby.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/myscl.orderby.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
+            <state relative-caret-position="858">
               <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
               <folding />
             </state>
@@ -85,11 +129,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resize.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="resize.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/resize.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
-              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+              <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toggle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/toggle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -137,12 +191,12 @@
       <list>
         <option value="$PROJECT_DIR$/xhr/xhr.js" />
         <option value="$PROJECT_DIR$/sql/myscl.podzapros.sql" />
-        <option value="$PROJECT_DIR$/sql/myscl.pro.sql" />
         <option value="$PROJECT_DIR$/sql/myscl.join.sql" />
         <option value="$PROJECT_DIR$/shell/alias.sh" />
         <option value="$PROJECT_DIR$/sql/README.md" />
         <option value="$PROJECT_DIR$/sql/myscl.orderby.sql" />
         <option value="$PROJECT_DIR$/javascript/resize.js" />
+        <option value="$PROJECT_DIR$/sql/myscl.pro.sql" />
       </list>
     </option>
   </component>
@@ -157,9 +211,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-4" />
-    <option name="width" value="1920" />
-    <option name="height" value="1084" />
+    <option name="x" value="-1" />
+    <option name="y" value="-11" />
+    <option name="width" value="1922" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -176,6 +231,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,12 +264,16 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -232,6 +292,20 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Node.js.resize.js">
+    <configuration name="resize.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="resize.js" working-dir="$PROJECT_DIR$/javascript" />
+    <configuration name="toggle.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="toggle.js" working-dir="$PROJECT_DIR$/javascript" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.toggle.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.resize.js" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.resize.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.toggle.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -253,7 +327,8 @@
       <workItem from="1515146570732" duration="17760000" />
       <workItem from="1515268714668" duration="6324000" />
       <workItem from="1515282358056" duration="5000" />
-      <workItem from="1515283436127" duration="265000" />
+      <workItem from="1515283436127" duration="411000" />
+      <workItem from="1515323871748" duration="825000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1514897562107</created>
@@ -500,26 +575,35 @@
       <option name="project" value="LOCAL" />
       <updated>1515283624468</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="resize">
+      <created>1515283705814</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1515283705814</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45274000" />
+    <option name="totallyTimeSpent" value="46245000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26082367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26082367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -557,19 +641,55 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql/table.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
-          <folding />
+          <folding>
+            <marker date="1514638267112" expanded="true" signature="257:323" ph="CREATE TABLE... table_test" />
+            <marker date="1514638267112" expanded="true" signature="344:458" ph="DROP TABLE t... " />
+            <marker date="1514638267112" expanded="true" signature="487:610" ph="UPDATE table_test... " />
+            <marker date="1514638267112" expanded="true" signature="808:861" ph="ALTER TABLE table_test... " />
+            <marker date="1514638267112" expanded="true" signature="942:993" ph="DELETE FROM table_test... " />
+            <marker date="1514638267112" expanded="true" signature="1151:1175" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1201:1228" ph="SELECT name table_test" />
+            <marker date="1514638267112" expanded="true" signature="1328:1387" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1443:1491" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1493:1548" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1615:1660" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1718:1763" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1765:1811" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1813:1891" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2030:2091" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2122:2165" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2197:2239" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2373:2568" ph="/*LIMIT пред... " />
+            <marker date="1514638267112" expanded="true" signature="2571:2623" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2627:2659" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2661:3378" ph="SELECT это п... " />
+            <marker date="1514638267112" expanded="true" signature="3482:3513" ph="SELECT COUNT... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3515:3562" ph="SELECT COUNT... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3603:3656" ph="SELECT price... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3658:3735" ph="SELECT price... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3793:3830" ph="SELECT SUM(d... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3831:3896" ph="SELECT categ... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3918:3955" ph="SELECT MAX(d... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3957:3994" ph="SELECT MIN(d... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3996:4033" ph="SELECT AVG(d... table_test" />
+            <marker date="1514638267112" expanded="true" signature="4051:4110" ph="SELECT price... table_test" />
+            <marker date="1514638267112" expanded="true" signature="4112:4183" ph="SELECT name,... table_test" />
+            <marker date="1514638267112" expanded="true" signature="4207:4276" ph="SELECT price... table_test" />
+            <marker date="1514638267112" expanded="true" signature="4278:4344" ph="SELECT price... table_test" />
+            <marker date="1514638267112" expanded="true" signature="5245:5302" ph="CREATE TABLE... table_two" />
+            <marker date="1514638267112" expanded="true" signature="5304:5327" ph="SELECT * FRO... table_two" />
+            <marker date="1514638267112" expanded="true" signature="5329:5352" ph="SELECT * FRO... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5355:5391" ph="SELECT * FRO... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5434:5505" ph="SELECT album... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5539:5610" ph="SELECT * FRO... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5634:5710" ph="SELECT * FRO... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5712:5880" ph="SELECT album... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5884:6103" ph="/*Здесь мы х... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -620,7 +740,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
-          <folding />
+          <folding>
+            <marker date="1514638267112" expanded="true" signature="257:323" ph="CREATE TABLE... table_test" />
+            <marker date="1514638267112" expanded="true" signature="344:458" ph="DROP TABLE t... " />
+            <marker date="1514638267112" expanded="true" signature="487:610" ph="UPDATE table_test... " />
+            <marker date="1514638267112" expanded="true" signature="808:861" ph="ALTER TABLE table_test... " />
+            <marker date="1514638267112" expanded="true" signature="942:993" ph="DELETE FROM table_test... " />
+            <marker date="1514638267112" expanded="true" signature="1151:1175" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1201:1228" ph="SELECT name table_test" />
+            <marker date="1514638267112" expanded="true" signature="1328:1387" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1443:1491" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1493:1548" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1615:1660" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1718:1763" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1765:1811" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1813:1891" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2030:2091" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2122:2165" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2197:2239" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2373:2568" ph="/*LIMIT пред... " />
+            <marker date="1514638267112" expanded="true" signature="2571:2623" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2627:2659" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2661:3378" ph="SELECT это п... " />
+            <marker date="1514638267112" expanded="true" signature="3482:3513" ph="SELECT COUNT... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3515:3562" ph="SELECT COUNT... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3603:3656" ph="SELECT price... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3658:3735" ph="SELECT price... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3793:3830" ph="SELECT SUM(d... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3831:3896" ph="SELECT categ... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3918:3955" ph="SELECT MAX(d... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3957:3994" ph="SELECT MIN(d... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3996:4033" ph="SELECT AVG(d... table_test" />
+            <marker date="1514638267112" expanded="true" signature="4051:4110" ph="SELECT price... table_test" />
+            <marker date="1514638267112" expanded="true" signature="4112:4183" ph="SELECT name,... table_test" />
+            <marker date="1514638267112" expanded="true" signature="4207:4276" ph="SELECT price... table_test" />
+            <marker date="1514638267112" expanded="true" signature="4278:4344" ph="SELECT price... table_test" />
+            <marker date="1514638267112" expanded="true" signature="5245:5302" ph="CREATE TABLE... table_two" />
+            <marker date="1514638267112" expanded="true" signature="5304:5327" ph="SELECT * FRO... table_two" />
+            <marker date="1514638267112" expanded="true" signature="5329:5352" ph="SELECT * FRO... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5355:5391" ph="SELECT * FRO... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5434:5505" ph="SELECT album... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5539:5610" ph="SELECT * FRO... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5634:5710" ph="SELECT * FRO... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5712:5880" ph="SELECT album... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5884:6103" ph="/*Здесь мы х... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -857,14 +1021,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/myscl.podzapros.sql" />
-    <entry file="file://$PROJECT_DIR$/sql/table.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shell/grep.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -895,17 +1051,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql/myscl.orderby.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
+        <state relative-caret-position="858">
           <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
           <folding />
         </state>
@@ -939,10 +1087,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/toggle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/resize.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/table.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1297">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
+          <folding>
+            <marker date="1514638267112" expanded="true" signature="257:323" ph="CREATE TABLE... table_test" />
+            <marker date="1514638267112" expanded="true" signature="344:458" ph="DROP TABLE t... " />
+            <marker date="1514638267112" expanded="true" signature="487:610" ph="UPDATE table_test... " />
+            <marker date="1514638267112" expanded="true" signature="808:861" ph="ALTER TABLE table_test... " />
+            <marker date="1514638267112" expanded="true" signature="942:993" ph="DELETE FROM table_test... " />
+            <marker date="1514638267112" expanded="true" signature="1151:1175" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1201:1228" ph="SELECT name table_test" />
+            <marker date="1514638267112" expanded="true" signature="1328:1387" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1443:1491" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1493:1548" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1615:1660" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1718:1763" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1765:1811" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="1813:1891" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2030:2091" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2122:2165" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2197:2239" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2373:2568" ph="/*LIMIT пред... " />
+            <marker date="1514638267112" expanded="true" signature="2571:2623" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2627:2659" ph="SELECT * FRO... table_test" />
+            <marker date="1514638267112" expanded="true" signature="2661:3378" ph="SELECT это п... " />
+            <marker date="1514638267112" expanded="true" signature="3482:3513" ph="SELECT COUNT... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3515:3562" ph="SELECT COUNT... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3603:3656" ph="SELECT price... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3658:3735" ph="SELECT price... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3793:3830" ph="SELECT SUM(d... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3831:3896" ph="SELECT categ... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3918:3955" ph="SELECT MAX(d... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3957:3994" ph="SELECT MIN(d... table_test" />
+            <marker date="1514638267112" expanded="true" signature="3996:4033" ph="SELECT AVG(d... table_test" />
+            <marker date="1514638267112" expanded="true" signature="4051:4110" ph="SELECT price... table_test" />
+            <marker date="1514638267112" expanded="true" signature="4112:4183" ph="SELECT name,... table_test" />
+            <marker date="1514638267112" expanded="true" signature="4207:4276" ph="SELECT price... table_test" />
+            <marker date="1514638267112" expanded="true" signature="4278:4344" ph="SELECT price... table_test" />
+            <marker date="1514638267112" expanded="true" signature="5245:5302" ph="CREATE TABLE... table_two" />
+            <marker date="1514638267112" expanded="true" signature="5304:5327" ph="SELECT * FRO... table_two" />
+            <marker date="1514638267112" expanded="true" signature="5329:5352" ph="SELECT * FRO... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5355:5391" ph="SELECT * FRO... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5434:5505" ph="SELECT album... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5539:5610" ph="SELECT * FRO... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5634:5710" ph="SELECT * FRO... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5712:5880" ph="SELECT album... table_one" />
+            <marker date="1514638267112" expanded="true" signature="5884:6103" ph="/*Здесь мы х... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="881">
+          <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
           <folding />
         </state>
       </provider>
