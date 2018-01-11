@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
 </head>
 <style>
-	#form{
+	#userform{
 		background: #f0f0f0;
 		margin: 0 auto;
 		width: 400px;
@@ -35,7 +35,7 @@
 /*	input[placeholder ="@email"] {
 		color: #70db7a;
 	}*/
-	
+
 
 	input[name="registr"] {
 		border: 1px solid #d8d6d6;
@@ -75,59 +75,56 @@
 	}
 </style>
 <body class="body-activ">
-	<?php 
-		echo var_dump($_GET) . '</br>';
-		echo var_dump($_POST) . '</br>';
-		echo var_dump($_COOKIE) . '</br>';
-		echo $_SERVER['REQUEST_URI'];
+	<?php
+		// phpinfo();
+		$dir = opendir('/var/www/html/upload.file/');
+		$count = 0;
+		while($file = readdir($dir)){
+		    if($file == '.' || $file == '..' || is_dir('/home/coffeehoock/desktop/testphp/' . $file)){
+		        continue;
+		    }
+		    $count++;
+		}
+		$dirs = new DirectoryIterator(dirname('/var/www/html/upload.file/*'));
+		foreach ($dirs as $fileinfo) {
+	    if ($fileinfo->isFile()) {
+	        // echo $fileinfo->getBasename() . "\n";
+	        echo $fileinfo->getBasename('.jpg') . "\n";
+	    }
+		}
+		echo 'Количество файлов: ' . $count . '</br>';
+		// echo var_dump($dir);
+		echo 'FILES ' . var_dump($_FILES) . '</br>';
+		echo 'GET ' . print_r($_GET) . '</br>';
+		echo 'POST ' . print_r($_POST) . '</br>';
+		echo 'COOKIE ' . print_r($_COOKIE) . '</br>';
+		echo 'REQUEST_URI ' . $_SERVER['REQUEST_URI'];
 		// echo var_dump($_POST["registr"]). '</br>';;
 		// echo var_dump($_REQUEST). '</br>';
-		$email = trim($_POST['name']);
-		$password = trim($_POST['text']);
+		$email = trim($_POST["email"]);
+		$password = trim($_POST['password']);
 		$email = htmlspecialchars($email);
 		$password = htmlspecialchars($password);
 	 ?>
-	<div id="form" class="loaded">
+	<div id="userform" class="loaded">
 		<!-- form -->
-		<form autocomplete="off" action="input.php" method="POST">
-<!-- 			<input type="radio" name="radio-name">
-			<input type="radio" name="radio-name">
-			<input type="radio" name="radio-name">
-			<input type="radio" name="radio-name"> -->
-			
-			<!-- checkbox -->
-<!-- 			<input type="checkbox" name="checkbox-name" checked>
-			<input type="checkbox" name="checkbox-name" value="a2">
-			<input type="checkbox" name="checkbox-name">
-			<input type="checkbox" name="checkbox-name"> -->
-			
+		<form autocomplete="off" action="form.php" method="POST">
 			<!-- registr -->
-			<input type="text" name="email" value="<?php echo $email; ?>" placeholder ="@email" autofocus>
-			<input type="password" name="password" value="">
+			<input type="text" name="email" value="<?php echo $_POST["email"]; ?>" placeholder ="@email" autofocus>
+			<input type="password" name="" value="">
 			<input type="reset" name="">
 			<input type="submit" name="">
-			
-			<!-- file -->
-			<input type="<?php echo "file"; ?>" name="">
+		</form>
 
-<!-- 			<select>
-				<option value="">product - 1</option>
-				<option value="">product - 2</option>
-				<option value="">product - 3</option>
-				<option value="">product - 4</option>
-			</select>
-			<select multiple="">
-				<option value="">product - 1</option>
-				<option value="">product - 2</option>
-				<option value="">product - 3</option>
-				<option value="">product - 4</option>
-			</select> -->
+		<form method="post" enctype="multipart/form-data">
+			<input type="file" name="image">
+			<input type="submit" name="upload">
 		</form>
 	</div>
 	<script>
-		var form = document.getElementById('form');
+		var form = document.getElementById('userform');
 		var body = document.getElementsByTagName('body')[0];
-		
+
 		document.body.onload = function () {
 			form.classList.remove('loaded');
 			body.classList.remove('body-activ');

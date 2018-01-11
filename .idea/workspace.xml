@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90377448-bc2a-4fa9-8739-24622c2b7a98" name="Default" comment="resize">
-      <change beforePath="" afterPath="$PROJECT_DIR$/sql/performance.sql" />
+    <list default="true" id="90377448-bc2a-4fa9-8739-24622c2b7a98" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/php/form.php" afterPath="$PROJECT_DIR$/php/form.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="myscl.pro.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2133">
+            <state relative-caret-position="22">
               <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
@@ -39,7 +39,7 @@
       <file leaf-file-name="table.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/table.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="1122">
               <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
               <folding>
                 <marker date="1514638267112" expanded="true" signature="257:323" ph="CREATE TABLE... table_test" />
@@ -93,17 +93,27 @@
         <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="13" />
+              <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="performance.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="performance.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/performance.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="712">
-              <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            <state relative-caret-position="704">
+              <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2233">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,25 +125,6 @@
             <state relative-caret-position="858">
               <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaScript-modules-diagram//home/coffeehoock/PhpstormProjects/TUTORIAL/javascript" pinned="false" current-in-tab="false">
-        <entry file="uml://JavaScript-modules-diagram//home/coffeehoock/PhpstormProjects/TUTORIAL/javascript">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JavaScript-modules-diagram</ID>
-              <OriginalElement>$PROJECT_DIR$/javascript</OriginalElement>
-              <nodes />
-              <notes />
-              <edges />
-              <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
-              <SelectedNodes />
-              <Categories>
-                <Category>All</Category>
-              </Categories>
-              <VISIBILITY>Details</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -262,6 +253,11 @@
             <path>
               <item name="TUTORIAL" type="b2602c69:ProjectViewProjectNode" />
               <item name="TUTORIAL" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TUTORIAL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TUTORIAL" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="sql" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -340,7 +336,8 @@
       <workItem from="1515282358056" duration="5000" />
       <workItem from="1515283436127" duration="411000" />
       <workItem from="1515323871748" duration="1731000" />
-      <workItem from="1515670731740" duration="2381000" />
+      <workItem from="1515670731740" duration="4055000" />
+      <workItem from="1515679541135" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1514897562107</created>
@@ -601,11 +598,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515324700584</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="performance">
+      <created>1515673130942</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1515673130942</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49532000" />
+    <option name="totallyTimeSpent" value="51235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
@@ -654,21 +658,14 @@
     <MESSAGE value="alias" />
     <MESSAGE value="order by" />
     <MESSAGE value="resize" />
-    <option name="LAST_COMMIT_MESSAGE" value="resize" />
+    <MESSAGE value="performance" />
+    <option name="LAST_COMMIT_MESSAGE" value="performance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="126" column="34" lean-forward="false" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shell/alias.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1042,6 +1039,7 @@
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
@@ -1064,7 +1062,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2133">
+        <state relative-caret-position="22">
           <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
@@ -1072,7 +1070,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/table.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="1122">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
           <folding>
             <marker date="1514638267112" expanded="true" signature="257:323" ph="CREATE TABLE... table_test" />
@@ -1124,15 +1122,23 @@
     <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="13" />
+          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/performance.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        <state relative-caret-position="704">
+          <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2233">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
