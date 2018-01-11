@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90377448-bc2a-4fa9-8739-24622c2b7a98" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+    <list default="true" id="90377448-bc2a-4fa9-8739-24622c2b7a98" name="Default" comment="resize">
+      <change beforePath="" afterPath="$PROJECT_DIR$/sql/performance.sql" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="myscl.pro.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="881">
-              <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+            <state relative-caret-position="-2133">
+              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -39,7 +39,7 @@
       <file leaf-file-name="table.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/table.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-835">
+            <state relative-caret-position="22">
               <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
               <folding>
                 <marker date="1514638267112" expanded="true" signature="257:323" ph="CREATE TABLE... table_test" />
@@ -84,17 +84,26 @@
                 <marker date="1514638267112" expanded="true" signature="5539:5610" ph="SELECT * FRO... table_one" />
                 <marker date="1514638267112" expanded="true" signature="5634:5710" ph="SELECT * FRO... table_one" />
                 <marker date="1514638267112" expanded="true" signature="5712:5880" ph="SELECT album... table_one" />
-                <marker date="1514638267112" expanded="true" signature="5884:6103" ph="/*Здесь мы х... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myscl.join.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myscl.join.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="154" column="22" lean-forward="true" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
+            <state relative-caret-position="396">
+              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="performance.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sql/performance.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="712">
+              <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -197,9 +206,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -211,6 +217,7 @@
         <option value="$PROJECT_DIR$/javascript/resize.js" />
         <option value="$PROJECT_DIR$/sql/myscl.pro.sql" />
         <option value="$PROJECT_DIR$/sql/myscl.join.sql" />
+        <option value="$PROJECT_DIR$/sql/performance.sql" />
       </list>
     </option>
   </component>
@@ -225,7 +232,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3839" />
+    <option name="x" value="-1" />
     <option name="y" value="-11" />
     <option name="width" value="1922" />
     <option name="height" value="1092" />
@@ -245,23 +252,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="TUTORIAL" type="b2602c69:ProjectViewProjectNode" />
               <item name="TUTORIAL" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="TUTORIAL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TUTORIAL" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="javascript" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="TUTORIAL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TUTORIAL" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="shell" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="TUTORIAL" type="b2602c69:ProjectViewProjectNode" />
@@ -278,6 +274,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,6 +340,7 @@
       <workItem from="1515282358056" duration="5000" />
       <workItem from="1515283436127" duration="411000" />
       <workItem from="1515323871748" duration="1731000" />
+      <workItem from="1515670731740" duration="2381000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1514897562107</created>
@@ -607,24 +605,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47151000" />
+    <option name="totallyTimeSpent" value="49532000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3839" y="-11" width="1922" height="1092" extended-state="6" />
+    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26082367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -632,8 +628,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35586062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -663,58 +661,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sql/table.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
-          <folding>
-            <marker date="1514638267112" expanded="true" signature="257:323" ph="CREATE TABLE... table_test" />
-            <marker date="1514638267112" expanded="true" signature="344:458" ph="DROP TABLE t... " />
-            <marker date="1514638267112" expanded="true" signature="487:610" ph="UPDATE table_test... " />
-            <marker date="1514638267112" expanded="true" signature="808:861" ph="ALTER TABLE table_test... " />
-            <marker date="1514638267112" expanded="true" signature="942:993" ph="DELETE FROM table_test... " />
-            <marker date="1514638267112" expanded="true" signature="1151:1175" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1201:1228" ph="SELECT name table_test" />
-            <marker date="1514638267112" expanded="true" signature="1328:1387" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1443:1491" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1493:1548" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1615:1660" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1718:1763" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1765:1811" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1813:1891" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2030:2091" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2122:2165" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2197:2239" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2373:2568" ph="/*LIMIT пред... " />
-            <marker date="1514638267112" expanded="true" signature="2571:2623" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2627:2659" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2661:3378" ph="SELECT это п... " />
-            <marker date="1514638267112" expanded="true" signature="3482:3513" ph="SELECT COUNT... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3515:3562" ph="SELECT COUNT... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3603:3656" ph="SELECT price... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3658:3735" ph="SELECT price... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3793:3830" ph="SELECT SUM(d... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3831:3896" ph="SELECT categ... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3918:3955" ph="SELECT MAX(d... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3957:3994" ph="SELECT MIN(d... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3996:4033" ph="SELECT AVG(d... table_test" />
-            <marker date="1514638267112" expanded="true" signature="4051:4110" ph="SELECT price... table_test" />
-            <marker date="1514638267112" expanded="true" signature="4112:4183" ph="SELECT name,... table_test" />
-            <marker date="1514638267112" expanded="true" signature="4207:4276" ph="SELECT price... table_test" />
-            <marker date="1514638267112" expanded="true" signature="4278:4344" ph="SELECT price... table_test" />
-            <marker date="1514638267112" expanded="true" signature="5245:5302" ph="CREATE TABLE... table_two" />
-            <marker date="1514638267112" expanded="true" signature="5304:5327" ph="SELECT * FRO... table_two" />
-            <marker date="1514638267112" expanded="true" signature="5329:5352" ph="SELECT * FRO... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5355:5391" ph="SELECT * FRO... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5434:5505" ph="SELECT album... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5539:5610" ph="SELECT * FRO... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5634:5710" ph="SELECT * FRO... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5712:5880" ph="SELECT album... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5884:6103" ph="/*Здесь мы х... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2772">
@@ -805,7 +751,6 @@
             <marker date="1514638267112" expanded="true" signature="5539:5610" ph="SELECT * FRO... table_one" />
             <marker date="1514638267112" expanded="true" signature="5634:5710" ph="SELECT * FRO... table_one" />
             <marker date="1514638267112" expanded="true" signature="5712:5880" ph="SELECT album... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5884:6103" ph="/*Здесь мы х... " />
           </folding>
         </state>
       </provider>
@@ -1119,15 +1064,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+        <state relative-caret-position="-2133">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/table.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-835">
+        <state relative-caret-position="22">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
           <folding>
             <marker date="1514638267112" expanded="true" signature="257:323" ph="CREATE TABLE... table_test" />
@@ -1172,15 +1117,22 @@
             <marker date="1514638267112" expanded="true" signature="5539:5610" ph="SELECT * FRO... table_one" />
             <marker date="1514638267112" expanded="true" signature="5634:5710" ph="SELECT * FRO... table_one" />
             <marker date="1514638267112" expanded="true" signature="5712:5880" ph="SELECT album... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5884:6103" ph="/*Здесь мы х... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="154" column="22" lean-forward="true" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
+        <state relative-caret-position="396">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/performance.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
           <folding />
         </state>
       </provider>
