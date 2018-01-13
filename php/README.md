@@ -9,3 +9,5 @@
 [Объяснение сообщений об ошибках](http://php.net/manual/ru/features.file-upload.errors.php)
 ***
 [pathinfo](http://php.net/manual/ru/function.pathinfo.php)
+***
+[vodeo Загрузка файлов на сервер](https://www.youtube.com/watch?v=6xgogaljE1c)
