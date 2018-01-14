@@ -318,7 +318,7 @@ function my(){
     $shirinaDveri = $_REQUEST['shirinaDveri'];
     if ($_REQUEST['shirinaDveri'] == NaN){
         $shirinaDveri = 0;
-}
+    }
 
 
     $results = array(
