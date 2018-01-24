@@ -11,3 +11,5 @@
 [pathinfo](http://php.net/manual/ru/function.pathinfo.php)
 ***
 [vodeo Загрузка файлов на сервер](https://www.youtube.com/watch?v=6xgogaljE1c)
+***
+[socket](https://habrahabr.ru/post/331462/)
