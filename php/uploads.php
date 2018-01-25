@@ -1,4 +1,4 @@
-
+<!-- filfer upload.file -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,7 +7,7 @@
 	<title>upload-file</title>
 </head>
 <body>
-<?php 
+<?php
 		// sleep(100);
 		// echo "<pre>";
 		// echo print_r($_POST["myfile"]) . "<br>";
@@ -29,7 +29,7 @@
 				}else{
 					echo "файл: " . $filename . " не загружен";
 				}
-				
+
 
 			}else{
 
