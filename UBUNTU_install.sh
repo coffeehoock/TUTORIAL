@@ -56,5 +56,14 @@ source ~/.bashrc
 # app
 sudo apt install gparted
 
+# theme
+sudo add-apt-repository ppa:noobslab/themes
+sudo apt-get update
+sudo apt-get install flatabulous-theme
+
+sudo add-apt-repository ppa:noobslab/icons
+sudo apt-get update
+sudo apt-get install ultra-flat-icons
+
 
 
