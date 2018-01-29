@@ -22,6 +22,11 @@ display_errors on
 sudo mkdir /var/run/mysqld
 sudo mkfifo /var/run/mysqld/mysqld.sock
 sudo chown -R mysql /var/run/mysqld
+sudo a2enmod rewrite
+subl /etc/apache2/apache2.conf
+AllowOverride # https://laravel.ru/docs/v3/install
+cat sites-available/000-default.conf # -> Alias /laravel "/var/www/html/laravel/blog/public/"
+
 
 # LAMP
 sudo apt install apache2
@@ -46,6 +51,9 @@ chmod -R gu+w storage
 chmod -R guo+w storage
 
 php artisan cache:clear
+
+composer create-project --prefer-dist laravel/laravel blog "5.3.*"
+
 
 echo 'export PATH="$PATH:$HOME/.config/composer/vendor/bin"' >> ~/.bashrc
 source ~/.bashrc
