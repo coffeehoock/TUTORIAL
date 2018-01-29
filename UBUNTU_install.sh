@@ -26,7 +26,7 @@ sudo a2enmod rewrite
 subl /etc/apache2/apache2.conf
 AllowOverride # https://laravel.ru/docs/v3/install
 cat sites-available/000-default.conf # -> Alias /laravel "/var/www/html/laravel/blog/public/"
-
+# ssl -> http://help.ubuntu.ru/wiki/apache2
 
 # LAMP
 sudo apt install apache2
