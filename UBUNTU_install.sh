@@ -1,4 +1,4 @@
-# ccsm
+### ccsm ###
 sudo apt-get install fish unity-tweak-tool plank compizconfig-settings-manager compiz-plugins-extra chromium-browser gdebi 
 
 # Установка
@@ -7,14 +7,14 @@ sudo systemctl enable plank
 # После установки добавим программу в автозагрузку:
 sudo systemctl enable apache2
 
-# subl
+### subl ###
 
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
 sudo apt-get install sublime-text
 
 
-# apache
+### apache ###
 sudo subl /etc/php/7.0/apache2/php.ini
 
 display_errors on
@@ -28,7 +28,7 @@ AllowOverride # https://laravel.ru/docs/v3/install
 cat sites-available/000-default.conf # -> Alias /laravel "/var/www/html/laravel/blog/public/"
 # ssl -> http://help.ubuntu.ru/wiki/apache2
 
-# LAMP
+### LAMP ###
 sudo apt install apache2
 sudo apt install mysql-server
 sudo apt install php libapache2-mod-php php-mcrypt php-mysql
@@ -42,13 +42,14 @@ sudo systemctl start apache2
 
 subl /etc/php/7.0/apache2/*
 
-# laravel
+### laravel ###
 sudo a2enmod rewrite
 
 sudo chmod 755 -R laravel_blog
-chmod -R o+w laravel_blog/storage
-chmod -R gu+w storage
-chmod -R guo+w storage
+sudo chmod -R o+w laravel_blog/storage
+sudo chmod -R gu+w storage
+sudo chmod -R guo+w storage
+sudo chmod -R gu+w bootstrap/cache/
 
 php artisan cache:clear
 
@@ -64,7 +65,7 @@ source ~/.bashrc
 # app
 sudo apt install gparted
 
-# theme
+### theme ###
 sudo add-apt-repository ppa:noobslab/themes
 sudo apt-get update
 sudo apt-get install flatabulous-theme
@@ -73,5 +74,21 @@ sudo add-apt-repository ppa:noobslab/icons
 sudo apt-get update
 sudo apt-get install ultra-flat-icons
 # https://www.fossmint.com/ubuntu-16-04-my-experience-so-far-and-customization/
+
+### FISH ###
+set -Ux FOO 'bar'
+
+### .htaccess ###
+# redirect http -> https
+DocumentRoot %sprogdir%/home/commpier/desktop/public_html
+
+
+RewriteEngine On
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^public
+RewriteRule ^(.*)$ public/1$ [L]
 
 
