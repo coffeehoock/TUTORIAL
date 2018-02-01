@@ -41,7 +41,7 @@ sudo /etc/init.d/apache2 reload
 sudo systemctl start apache2
 
 subl /etc/php/7.0/apache2/*
-
+ss
 ### laravel ###
 sudo a2enmod rewrite
 
