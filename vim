@@ -63,3 +63,9 @@ vU v~	Перевести слово под курсором в верхний р
 vi'
 vib(
 viB {
+
+vim-surround
+
+vmap S
+ysiw
+vs пробел

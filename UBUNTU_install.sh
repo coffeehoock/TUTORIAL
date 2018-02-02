@@ -98,10 +98,13 @@ RewriteRule ^(.*)$ public/1$ [L]
 
 ### $USER ###
 sudo chown -R  lowchat:commpier /home/lowchat
-sudo chgrp  commpier /home/lowchat/
+sudo chgrp -R commpier /home/lowchat/
 sudo usermod -a -G sudo lowchat
 sudo adduser lowchat  sudo
 
+sudo addgroup groupname
+sudo delgroup groupname
+sudo adduser username groupname
 
 
 
