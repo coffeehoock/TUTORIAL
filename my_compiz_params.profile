@@ -32,7 +32,11 @@ s0_ground_color1 = #b3b3b3cc
 s0_ground_color2 = #b3b3b300
 
 [freewins]
-s0_snap_threshold = 50
+s0_snap_mods = 0;1;2;3;
+s0_invert_mods = 0;1;2;3;
+s0_snap = true
+s0_snap_threshold = 67
+s0_min_scale = 1,000000
 s0_circle_color = #54befb80
 s0_line_color = #1800ffff
 s0_cross_line_color = #1800ffff
@@ -56,10 +60,10 @@ s0_switch_to_1_key = <Super>Home
 
 [place]
 s0_mode = 1
-s0_position_matches = class=Gnome-terminal;
-s0_position_x_values = 240;
-s0_position_y_values = 80;
-s0_position_constrain_workarea = false;
+s0_position_matches = class=Gnome-terminal;class=Nautilus;class=Gedit;class=Eog;
+s0_position_x_values = 240;370;400;170;
+s0_position_y_values = 80;129;100;50;
+s0_position_constrain_workarea = false;false;false;false;
 
 [firepaint]
 s0_fire_color = #ff3305ff
