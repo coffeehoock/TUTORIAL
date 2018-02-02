@@ -45,7 +45,7 @@ sudo /etc/init.d/apache2 reload
 
 sudo systemctl start apache2
 
-subl /etc/php/7.0/apache2/*
+# subl /etc/php/7.0/apache2/*
 ss
 ### laravel ###
 sudo a2enmod rewrite
@@ -56,9 +56,9 @@ sudo chmod -R gu+w storage
 sudo chmod -R guo+w storage
 sudo chmod -R gu+w bootstrap/cache/
 
-php artisan cache:clear
+# php artisan cache:clear
 
-composer create-project --prefer-dist laravel/laravel blog "5.3.*"
+# composer create-project --prefer-dist laravel/laravel blog "5.3.*"
 
 
 echo 'export PATH="$PATH:$HOME/.config/composer/vendor/bin"' >> ~/.bashrc
@@ -85,16 +85,16 @@ set -Ux FOO 'bar'
 
 ### .htaccess ###
 # redirect http -> https
-DocumentRoot %sprogdir%/home/commpier/desktop/public_html
+# DocumentRoot %sprogdir%/home/commpier/desktop/public_html
 
 
-RewriteEngine On
-RewriteCond %{HTTPS} !on
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+# RewriteEngine On
+# RewriteCond %{HTTPS} !on
+# RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
-RewriteEngine On
-RewriteCond %{REQUEST_URI} !^public
-RewriteRule ^(.*)$ public/1$ [L]
+# RewriteEngine On
+# RewriteCond %{REQUEST_URI} !^public
+# RewriteRule ^(.*)$ public/1$ [L]
 
 ### $USER ###
 sudo chown -R  lowchat:commpier /home/lowchat
@@ -105,6 +105,9 @@ sudo adduser lowchat  sudo
 sudo addgroup groupname
 sudo delgroup groupname
 sudo adduser username groupname
+
+### git ###
+git checkout HEAD^ stack
 
 
 
