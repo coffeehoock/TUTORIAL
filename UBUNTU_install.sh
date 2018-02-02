@@ -108,7 +108,7 @@ sudo adduser username groupname
 
 ### git ###
 git log --name-status
-git checkout HEAD^ stack
+git checkout HEAD^ file_name
 
 
 
