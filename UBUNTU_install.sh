@@ -28,6 +28,11 @@ AllowOverride # https://laravel.ru/docs/v3/install
 cat sites-available/000-default.conf # -> Alias /laravel "/var/www/html/laravel/blog/public/"
 # ssl -> http://help.ubuntu.ru/wiki/apache2
 
+#чтобы apache смог в какой-то папке сохранять файлы, выполняем:
+#ttps://900913.ru/2017/05/09/prava-na-fayly-i-papki-v-linux-freebsd-i-macos/
+sudo chown -R www-data:www-data /home/user/www/site/upload/
+
+
 ### LAMP ###
 sudo apt install apache2
 sudo apt install mysql-server
@@ -90,5 +95,12 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 RewriteEngine On
 RewriteCond %{REQUEST_URI} !^public
 RewriteRule ^(.*)$ public/1$ [L]
+
+### $USER ###
+sudo chgrp  commpier /home/lowchat/
+sudo usermod -a -G sudo lowchat
+sudo adduser lowchat  sudo
+
+
 
 
