@@ -97,6 +97,7 @@ RewriteCond %{REQUEST_URI} !^public
 RewriteRule ^(.*)$ public/1$ [L]
 
 ### $USER ###
+sudo chown -R  lowchat:commpier /home/lowchat
 sudo chgrp  commpier /home/lowchat/
 sudo usermod -a -G sudo lowchat
 sudo adduser lowchat  sudo
