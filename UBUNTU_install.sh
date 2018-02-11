@@ -112,3 +112,43 @@ git checkout HEAD^ file_name
 
 
 
+# Как установить новые пакеты
+sudo apt install {pkgNameHere}
+sudo apt remove  {pkgNameHere}
+
+# Опция purge чтобы удалить пакет и конфигурационные файлы
+sudo apt purge {pkgNameHere}
+sudo apt --purge autoremove
+
+# Как искать пакеты
+apt search {pkgNameHere}
+apt show {pkgNameHere}
+apt list | grep {pkgNameHere}
+apt list 'php7*'
+
+# группа приложения
+sudo adduser --system --group --no-create-home redis
+
+### debug apt ###
+# https://neosvc.ru/stati/232-nevozmozhno-ispravit-oshibki-u-vas-otlozheny-held-bitye-pakety.html
+
+
+systemctl unmask  redis-server.service
+
+git clone git://github.com/nicolasff/phpredis.git
+cd phpredis
+phpize
+./configure
+make
+sudo -s make install
+
+sudo -s
+
+
+echo "extension=redis.so">/etc/php/7.0/apache2/conf.d/redis.ini
+ln -s /etc/php/7.0/apache2/conf.d/redis.ini /etc/php/7.0/apache2/20-redis.ini
+exit
+
+
+
+
