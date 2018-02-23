@@ -108,6 +108,12 @@ sudo adduser username groupname
 
 sudo lastlog
 
+# usermod опции имя_пользователя
+# -G — дополнительные группы, в которые нужно добавить пользователя
+# -g изменить основную группу для пользователя
+# -R удалить пользователя из группы.
+# sudo usermod -G -a имя_группы имя_пользователя
+
 ### git ###
 git log --name-status
 git checkout HEAD^ file_name
