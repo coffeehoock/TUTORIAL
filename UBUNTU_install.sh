@@ -106,6 +106,8 @@ sudo addgroup groupname
 sudo delgroup groupname
 sudo adduser username groupname
 
+sudo lastlog
+
 ### git ###
 git log --name-status
 git checkout HEAD^ file_name
