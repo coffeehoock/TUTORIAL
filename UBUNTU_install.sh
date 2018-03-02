@@ -106,6 +106,9 @@ sudo addgroup groupname
 sudo delgroup groupname
 sudo adduser username groupname
 
+groups lowchat #показать в какие группы входит пользователь
+
+
 sudo lastlog
 
 # usermod опции имя_пользователя
