@@ -157,6 +157,11 @@ echo "extension=redis.so">/etc/php/7.0/apache2/conf.d/redis.ini
 ln -s /etc/php/7.0/apache2/conf.d/redis.ini /etc/php/7.0/apache2/20-redis.ini
 exit
 
+## HOST ###
+
+subl /etc/hosts
+cd etc/apahe/
+#ensite
 
 
 
