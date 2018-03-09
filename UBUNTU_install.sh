@@ -124,6 +124,8 @@ git checkout HEAD^ file_name
 
 
 # Как установить новые пакеты
+sudo dpkg --configure -a
+
 sudo apt install {pkgNameHere}
 sudo apt remove  {pkgNameHere}
 
