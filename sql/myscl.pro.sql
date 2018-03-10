@@ -47,10 +47,15 @@ user_name VARCHAR (20) NOT NULL,
 profession_id INT
 );
 
+INSERT INTO user_jobj VALUES (NULL, 'Petr', NULL);
+
+
 CREATE TABLE professions(
   profession_id INT PRIMARY KEY,
   profession_name VARCHAR(20) NOT NULL
 );
+
+INSERT INTO professions VALUES (1,'malar');
 
 ALTER TABLE user_jobj
 ADD FOREIGN KEY (profession_id) REFERENCES professions (profession_id);
