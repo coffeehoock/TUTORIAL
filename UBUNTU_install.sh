@@ -139,6 +139,13 @@ apt show {pkgNameHere}
 apt list | grep {pkgNameHere}
 apt list 'php7*'
 
+#программа находит пакет как не до конца установленный или удалённый и удаляет.
+sudo apt-get purge ttf-mscorefonts-installer
+sudo fuser -vki /var/lib/dpkg/lock
+sudo rm -r /var/lib/dpkg/info/sendmail-*
+rm -rf ~/.local/share/applications/wine*
+sudo rm -rf /etc/apt/sources.list
+
 # группа приложения
 sudo adduser --system --group --no-create-home redis
 
