@@ -176,4 +176,19 @@ cd etc/apahe/
 #ensite
 
 
+### kill ###
+sudo netstat -plnt | grep '127.0.0.1:8000'
+kill -KILL 4073
+
+### symfony ###
+cd app 
+sudo chmod a+w cache -R
+php app/console cache:clear
+sudo rm -rf app/cache/
+sudo rm -rf app/cache/*
+sudo rm -rf app/logs/*
+
+# https://symfony.com/doc/2.2/book/installation.html
+
+
 
