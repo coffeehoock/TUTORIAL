@@ -16,6 +16,10 @@ sudo apt-get install sublime-text
 
 ### apache ###
 sudo subl /etc/php/7.0/apache2/php.ini
+# php_value upload_max_filesize
+# /etc/init.d/apache2 restart or /etc/init.d/httpd restart
+# sudo a2dismod php7.0 http://fkn.ktu10.com/?q=node/8596
+
 
 display_errors on
 
@@ -42,6 +46,8 @@ sudo apt install phpmyadmin php-mbstring php-gettext
 sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
 sudo a2enconf phpmyadmin
 sudo /etc/init.d/apache2 reload
+
+
 
 sudo systemctl start apache2
 
@@ -189,6 +195,13 @@ sudo rm -rf app/cache/*
 sudo rm -rf app/logs/*
 
 # https://symfony.com/doc/2.2/book/installation.html
+##### no mdel
+
+sudo chown -R www-data:www-data app/logs/
+sudo chown -R www-data:www-data app/cache/
+
+# http_protocol: http
+
 
 
 
