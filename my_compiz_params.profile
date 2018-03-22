@@ -1,3 +1,6 @@
+[composite]
+s0_unredirect_match = ((any) & !(class=Totem) & !(class=MPlayer) & !(class=vlc) & !(class=Plugin-container) & !(class=QtQmlViewer) & !(class=Firefox) & !(class=google-chrome) & !(class=google-chrome-unstable) & !(class=chromium-browser)) & !(class=yandex-browser) & !(class=yandex-browser-beta) & !(class=yandex-browser-unstable)
+
 [switcher]
 s0_background_color = #333333d9
 
@@ -83,15 +86,19 @@ s0_unminimize_durations = 230;
 s0_shade_effects = animation:Curved Fold;
 
 [unityshell]
+s0_execute_command = KP_Divide
+s0_panel_first_menu = KP_Divide
 s0_panel_opacity = 0,772595
 s0_inactive_shadow_color = #000000a5
+s0_show_launcher = KP_Divide
+s0_keyboard_focus = KP_Divide
 s0_launcher_hide_mode = 1
 s0_reveal_trigger = 1
 s0_edge_responsiveness = 0,200000
 
 [core]
 s0_active_plugins = core;composite;opengl;wall;move;grid;resize;compiztoolbox;obs;mousepoll;commands;copytex;regex;imgpng;place;vpswitch;session;animation;wobbly;fade;unitymtgrabhandles;workarounds;scale;expo;freewins;unityshell;
-s0_outputs = 1920x1080+0+0;
+s0_outputs = 1024x768+0+0;
 s0_autoraise = false
 s0_autoraise_delay = 500
 s0_show_desktop_key = <Control><Super>d
@@ -106,13 +113,18 @@ s0_background_color = #333333d9
 s0_initiate_all_key = F4
 
 [wall]
+s0_show_switcher = false
+s0_miniscreen = false
 s0_thumb_highlight_gradient_shadow_color = #dfdfdfff
 s0_arrow_base_color = #e6e6e6d9
 s0_arrow_shadow_color = #dcdcdcd9
+s0_slide_duration = 0,450000
+s0_auto_switch_vp_and_window = true
 s0_next_key = F2
 s0_prev_key = F1
 s0_left_window_key = <Shift>F1
 s0_right_window_key = <Shift>F2
+s0_mmmode = 1
 
 [obs]
 s0_opacity_matches = class=Tooltip | Menu | PopupMenu | DropdownMenu | Unknown;(class=Ccsm) & class=Plank & class=Ccsm & type=Normal;;
