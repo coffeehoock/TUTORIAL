@@ -107,6 +107,10 @@ sudo chown -R  lowchat:commpier /home/lowchat
 sudo chgrp -R commpier /home/lowchat/
 sudo usermod -a -G sudo lowchat
 sudo adduser lowchat  sudo
+tail -1 /etc/passwd # поверить оболочку
+
+sed 's/:.*//' /etc/passwd
+
 
 sudo addgroup groupname
 sudo delgroup groupname

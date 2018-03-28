@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+body,
+html{
+	padding: 0;
+	margin: 0;
+}
+
+#cnt{
+	width: 100%;
+	height: 60px;
+	background: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+input::placeholder{
+	color: #2686d063;
+	transition: all .3s;
+}
+
+input[value=""]{
+	color: #e8e8e8;
+	padding-left: 15px;
+	transition: all 4s;
+}
+
+input[type="password"],
+input[type="text"]{
+	outline: none;
+	height: 26px;
+	width: 150px;
+	border-radius: 6px;
+	border: 0px solid black;
+	box-shadow: inset 0px 5px 20px 0px #c9c9c9;
+}
+
+input:focus::placeholder {
+	color: #94adc163;
+	/*transition: all .5s;*/
+}
+
+
+input[placeholder]:focus { color: #2686d0b3; }
+
+
+</style>
+
+
+<body>
+	<div id="cnt">
+		<input type="text" placeholder="@email" value="">
+		<input type="text" placeholder="name" value="">
+		<input type="password" placeholder="password" value="">
+	</div>
+</body>
+</html>
