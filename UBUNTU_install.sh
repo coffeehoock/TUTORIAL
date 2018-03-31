@@ -1,5 +1,5 @@
 ### ccsm ###
-sudo apt-get install fish unity-tweak-tool plank compizconfig-settings-manager compiz-plugins-extra chromium-browser gdebi 
+sudo apt-get install fish unity-tweak-tool plank compizconfig-settings-manager compiz-plugins-extra chromium-browser gdebi
 
 # Установка
 sudo systemctl enable plank
@@ -15,8 +15,8 @@ sudo apt-get install sublime-text
 
 
 ### apache ###
-sudo subl /etc/php/7.0/apache2/php.ini
-# php_value upload_max_filesize
+sudo subl /etc/php/7.2/apache2/php.ini
+# php_value upload_max_filesizeUSER
 # /etc/init.d/apache2 restart or /etc/init.d/httpd restart
 # sudo a2dismod php7.0 http://fkn.ktu10.com/?q=node/8596
 
@@ -109,9 +109,10 @@ sudo usermod -a -G sudo lowchat
 sudo adduser lowchat  sudo
 tail -1 /etc/passwd # поверить оболочку
 
+cat /etc/group | grep -i lowchat #в какие гуппы входит lowchat
 sed 's/:.*//' /etc/passwd
 
-
+sudo usermod -R группа пользователь #Удалить пользователя из группы
 sudo addgroup groupname
 sudo delgroup groupname
 sudo adduser username groupname
@@ -191,7 +192,7 @@ sudo netstat -plnt | grep '127.0.0.1:8000'
 kill -KILL 4073
 
 ### symfony ###
-cd app 
+cd app
 sudo chmod a+w cache -R
 php app/console cache:clear
 sudo rm -rf app/cache/
@@ -205,7 +206,3 @@ sudo chown -R www-data:www-data app/logs/
 sudo chown -R www-data:www-data app/cache/
 
 # http_protocol: http
-
-
-
-
