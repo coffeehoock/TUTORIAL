@@ -39,6 +39,7 @@ sudo chown -R www-data:www-data /home/user/www/site/upload/
 ## https
 ## sendmail
 sudo dpkg-reconfigure sendmail-bin sensible-mda
+sudo update-alternatives --remove-all sendmail-mta
 
 
 
