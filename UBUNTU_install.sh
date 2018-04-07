@@ -36,6 +36,11 @@ cat sites-available/000-default.conf # -> Alias /laravel "/var/www/html/laravel/
 #ttps://900913.ru/2017/05/09/prava-na-fayly-i-papki-v-linux-freebsd-i-macos/
 sudo chown -R www-data:www-data /home/user/www/site/upload/
 
+## https
+## sendmail
+sudo dpkg-reconfigure sendmail-bin sensible-mda
+
+
 
 ### LAMP ###
 sudo apt install apache2
