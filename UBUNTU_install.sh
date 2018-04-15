@@ -40,7 +40,8 @@ sudo chown -R www-data:www-data /home/user/www/site/upload/
 ## sendmail
 sudo dpkg-reconfigure sendmail-bin sensible-mda
 sudo update-alternatives --remove-all sendmail-mta
-
+# info sendmail
+echo '$=w' | sendmail -Am -bt
 
 
 ### LAMP ###
@@ -212,3 +213,9 @@ sudo chown -R www-data:www-data app/logs/
 sudo chown -R www-data:www-data app/cache/
 
 # http_protocol: http
+
+
+find . -type f -not -name "fil1"  -exec mv {} "fold/" \;
+
+
+
