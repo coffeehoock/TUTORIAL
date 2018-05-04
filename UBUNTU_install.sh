@@ -112,12 +112,13 @@ set -Ux FOO 'bar'
 ### $USER ###
 sudo chown -R  lowchat:commpier /home/lowchat
 sudo chgrp -R commpier /home/lowchat/
-sudo usermod -a -G sudo lowchat
+sudo usermod -a -G sudo lowchat #сменить оболочку
 sudo adduser lowchat  sudo
 tail -1 /etc/passwd # поверить оболочку
 
 cat /etc/group | grep -i lowchat #в какие гуппы входит lowchat
-sed 's/:.*//' /etc/passwd
+sed 's/:.*//' /etc/passwd #список групп Системные регистрационные имена
+# http://citforum.ru/operating_systems/unix/kravchuk/3.shtml
 
 sudo usermod -R группа пользователь #Удалить пользователя из группы
 sudo addgroup groupname
@@ -218,4 +219,20 @@ sudo chown -R www-data:www-data app/cache/
 find . -type f -not -name "fil1"  -exec mv {} "fold/" \;
 
 
+### SSH ###
+ssh -p 22 lowc@ip
+
+### SESSION ###
+usermod -s /bin/fish lowchat
+cat /etc/shells
+sudo killall -u vica
+su lowchat -c "sudo killall -u lowchat"
+
+### sicurity ###
+<FilesMatch "\.(engine|inc|info|install|make|module|profile|test|po|sh|.*sql|theme|tpl(\.php)?|xtmpl)$|^(\..*|Entries.*|Repository|Root|Tag|Template)$">
+  Order allow,deny
+</FilesMatch>
+благодаря которым "скачать движок с модулями" и не получится
+
+wget -r -k -l 0 -p -E -nc https://www
 
