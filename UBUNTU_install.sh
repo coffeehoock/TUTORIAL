@@ -110,6 +110,19 @@ set -Ux FOO 'bar'
 # RewriteRule ^(.*)$ public/1$ [L]
 
 ### $USER ###
+
+# create user
+# add user
+sudo useradd <userName> -b /mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/user/  -g www-data -m
+# add pass
+sudo passwd  <userName>
+# add root
+grep <userName> /etc/passwd
+sudo atom /etc/passwd
+<userName>:x:0:0::/mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/user//env-html:
+sudo usermod -a -G root <userName>
+
+
 sudo chown -R  lowchat:commpier /home/lowchat
 sudo chgrp -R commpier /home/lowchat/
 sudo usermod -a -G sudo lowchat #сменить оболочку
