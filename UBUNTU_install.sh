@@ -120,7 +120,7 @@ sudo passwd  <userName>
 grep <userName> /etc/passwd
 sudo atom /etc/passwd
 <userName>:x:0:0::/mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/user//env-html:
-sudo usermod -a -G root <userName>
+sudo usermod -a -G root,sudo <userName>
 
 
 sudo chown -R  lowchat:commpier /home/lowchat
