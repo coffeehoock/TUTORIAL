@@ -1,1 +1,2 @@
-tar -pczf имяархива.tar.gz обучение\ курс\ \(1\)/
+tar -pczf имяархива.tar.gz file1
+sudo tar -cvzf themes.tar.gz themes/ icons/
