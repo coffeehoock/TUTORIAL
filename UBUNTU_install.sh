@@ -117,9 +117,12 @@ sudo useradd <userName> -b /mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/user/  -g w
 # add pass
 sudo passwd  <userName>
 # add root
+sudo useradd -o -u 0 -g 0 -s /bin/bash <userName>
+
 grep <userName> /etc/passwd
 sudo atom /etc/passwd
 <userName>:x:0:0::/mnt/56f5f743-0eb2-4a7b-9b09-d7eb97dce628/user//env-html:
+
 sudo usermod -a -G root,sudo <userName>
 
 
