@@ -23,32 +23,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="vim" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vim">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1621" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UBUNTU_install.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UBUNTU_install.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7000" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="subl.keymap" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/subl.keymap">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="regExc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regExc">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="README.mdecho" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.mdecho">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -69,14 +45,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bitrix-host.conf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bitrix-host.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix-host.conf">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="basicKnowledge" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basicKnowledge">
+      <file leaf-file-name="sorax.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cffee/sorax.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2175" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requestAnimationFrame.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cffee/requestAnimationFrame.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-957" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="polyfill.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cffee/polyfill.coffee">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="OOP.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cffee/OOP.coffee">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="vim" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vim">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="UBUNTU_install.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UBUNTU_install.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-87" />
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -133,7 +140,6 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-3840" />
     <option name="y" value="-4" />
     <option name="width" value="1920" />
     <option name="height" value="1084" />
@@ -232,7 +238,7 @@
       <workItem from="1515670731740" duration="4055000" />
       <workItem from="1515679541135" duration="2458000" />
       <workItem from="1515765427826" duration="11000" />
-      <workItem from="1539111338745" duration="1319000" />
+      <workItem from="1539111338745" duration="1520000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1514897562107</created>
@@ -511,10 +517,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54994000" />
+    <option name="totallyTimeSpent" value="55195000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.32948583" />
@@ -564,16 +570,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="performance" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shell/tar.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell/zsh.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell/delete">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell/apache.sh" />
     <entry file="file://$PROJECT_DIR$/shell/for i in.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -762,24 +758,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1621" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UBUNTU_install.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7000" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/subl.keymap">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/regExc">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/basicKnowledge">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229" />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.mdecho">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/git.upload">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-609" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -789,16 +779,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/git.upload">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-609" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/README.mdecho">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/basicKnowledge">
+    <entry file="file://$PROJECT_DIR$/regExc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix-host.conf">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cffee/sorax.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cffee/requestAnimationFrame.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-957" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cffee/polyfill.coffee">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cffee/OOP.coffee">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vim">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UBUNTU_install.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87" />
+      </provider>
     </entry>
   </component>
 </project>
