@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90377448-bc2a-4fa9-8739-24622c2b7a98" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jmegrate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery-plugin" beforeDir="false" />
-    </list>
+    <list default="true" id="90377448-bc2a-4fa9-8739-24622c2b7a98" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,93 +23,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="myscl.pro.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
+      <file leaf-file-name="vim" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vim">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" column="16" selection-start-line="1" selection-end-line="1" selection-end-column="16" />
-            </state>
+            <state relative-caret-position="-1621" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="table.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/table.sql">
+      <file leaf-file-name="UBUNTU_install.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UBUNTU_install.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="51" selection-start-line="51" selection-end-line="51" selection-end-column="47" />
-            </state>
+            <state relative-caret-position="-7000" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myscl.join.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
+      <file leaf-file-name="subl.keymap" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/subl.keymap">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="performance.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/performance.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="928">
-              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-            </state>
-          </provider>
+      <file leaf-file-name="regExc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regExc">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="form.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myscl.orderby.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/myscl.orderby.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1131">
-              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resize.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/resize.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toggle.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/toggle.js">
+      <file leaf-file-name="README.mdecho" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.mdecho">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/README.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="203">
-                <caret line="7" selection-start-line="7" selection-end-line="7" />
-              </first_editor>
+              <first_editor />
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alias.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shell/alias.sh">
+      <file leaf-file-name="git.upload" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/git.upload">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="44" selection-start-column="44" selection-end-column="44" />
-            </state>
+            <state relative-caret-position="-609" />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bitrix-host.conf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bitrix-host.conf">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="basicKnowledge" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basicKnowledge">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -176,22 +139,28 @@
     <option name="height" value="1084" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <autoscrollToSource Scope="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TUTORIAL" type="cbb8eebc:String" user="TUTORIAL" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="TUTORIAL" type="b2602c69:ProjectViewProjectNode" />
               <item name="TUTORIAL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TUTORIAL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TUTORIAL" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,7 +232,7 @@
       <workItem from="1515670731740" duration="4055000" />
       <workItem from="1515679541135" duration="2458000" />
       <workItem from="1515765427826" duration="11000" />
-      <workItem from="1539111338745" duration="671000" />
+      <workItem from="1539111338745" duration="1319000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1514897562107</created>
@@ -542,11 +511,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54346000" />
+    <option name="totallyTimeSpent" value="54994000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3840" y="-4" width="1920" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1920" y="-4" width="1920" height="1084" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.32948583" />
@@ -555,7 +523,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.26082367" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.3296875" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15635005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15635005" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -596,93 +564,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="performance" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shell/alias.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="44" selection-start-column="44" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/myscl.orderby.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2816">
-          <caret line="128" column="69" selection-start-line="128" selection-start-column="69" selection-end-line="128" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/table.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="51" selection-start-line="51" selection-end-line="51" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell/alias.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4312">
-          <caret line="196" column="43" lean-forward="true" selection-start-line="196" selection-start-column="43" selection-end-line="196" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3190">
-          <caret line="145" column="22" lean-forward="true" selection-start-line="145" selection-start-column="22" selection-end-line="145" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xhr/xhr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell/SETTINGS.sh" />
     <entry file="file://$PROJECT_DIR$/shell/tar.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -857,6 +738,67 @@
           <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/(1)-foreach.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bg-image.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/clearfix.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/psevdo-class.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/GPU">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1621" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UBUNTU_install.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7000" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subl.keymap">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regExc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.mdecho">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git.upload">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-609" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basicKnowledge">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix-host.conf">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
