@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90377448-bc2a-4fa9-8739-24622c2b7a98" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jmegrate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jquery-plugin" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,9 +30,8 @@
       <file leaf-file-name="myscl.pro.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="29">
+              <caret line="1" column="16" selection-start-line="1" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -38,52 +39,8 @@
       <file leaf-file-name="table.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/table.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
-              <folding>
-                <marker date="1514638267112" expanded="true" signature="257:323" ph="CREATE TABLE... table_test" />
-                <marker date="1514638267112" expanded="true" signature="344:458" ph="DROP TABLE t... " />
-                <marker date="1514638267112" expanded="true" signature="487:610" ph="UPDATE table_test... " />
-                <marker date="1514638267112" expanded="true" signature="808:861" ph="ALTER TABLE table_test... " />
-                <marker date="1514638267112" expanded="true" signature="942:993" ph="DELETE FROM table_test... " />
-                <marker date="1514638267112" expanded="true" signature="1151:1175" ph="SELECT * FRO... table_test" />
-                <marker date="1514638267112" expanded="true" signature="1201:1228" ph="SELECT name table_test" />
-                <marker date="1514638267112" expanded="true" signature="1328:1387" ph="SELECT * FRO... table_test" />
-                <marker date="1514638267112" expanded="true" signature="1443:1491" ph="SELECT * FRO... table_test" />
-                <marker date="1514638267112" expanded="true" signature="1493:1548" ph="SELECT * FRO... table_test" />
-                <marker date="1514638267112" expanded="true" signature="1615:1660" ph="SELECT * FRO... table_test" />
-                <marker date="1514638267112" expanded="true" signature="1718:1763" ph="SELECT * FRO... table_test" />
-                <marker date="1514638267112" expanded="true" signature="1765:1811" ph="SELECT * FRO... table_test" />
-                <marker date="1514638267112" expanded="true" signature="1813:1891" ph="SELECT * FRO... table_test" />
-                <marker date="1514638267112" expanded="true" signature="2030:2091" ph="SELECT * FRO... table_test" />
-                <marker date="1514638267112" expanded="true" signature="2122:2165" ph="SELECT * FRO... table_test" />
-                <marker date="1514638267112" expanded="true" signature="2197:2239" ph="SELECT * FRO... table_test" />
-                <marker date="1514638267112" expanded="true" signature="2373:2568" ph="/*LIMIT пред... " />
-                <marker date="1514638267112" expanded="true" signature="2571:2623" ph="SELECT * FRO... table_test" />
-                <marker date="1514638267112" expanded="true" signature="2627:2659" ph="SELECT * FRO... table_test" />
-                <marker date="1514638267112" expanded="true" signature="2661:3378" ph="SELECT это п... " />
-                <marker date="1514638267112" expanded="true" signature="3482:3513" ph="SELECT COUNT... table_test" />
-                <marker date="1514638267112" expanded="true" signature="3515:3562" ph="SELECT COUNT... table_test" />
-                <marker date="1514638267112" expanded="true" signature="3603:3656" ph="SELECT price... table_test" />
-                <marker date="1514638267112" expanded="true" signature="3658:3735" ph="SELECT price... table_test" />
-                <marker date="1514638267112" expanded="true" signature="3793:3830" ph="SELECT SUM(d... table_test" />
-                <marker date="1514638267112" expanded="true" signature="3831:3896" ph="SELECT categ... table_test" />
-                <marker date="1514638267112" expanded="true" signature="3918:3955" ph="SELECT MAX(d... table_test" />
-                <marker date="1514638267112" expanded="true" signature="3957:3994" ph="SELECT MIN(d... table_test" />
-                <marker date="1514638267112" expanded="true" signature="3996:4033" ph="SELECT AVG(d... table_test" />
-                <marker date="1514638267112" expanded="true" signature="4051:4110" ph="SELECT price... table_test" />
-                <marker date="1514638267112" expanded="true" signature="4112:4183" ph="SELECT name,... table_test" />
-                <marker date="1514638267112" expanded="true" signature="4207:4276" ph="SELECT price... table_test" />
-                <marker date="1514638267112" expanded="true" signature="4278:4344" ph="SELECT price... table_test" />
-                <marker date="1514638267112" expanded="true" signature="5245:5302" ph="CREATE TABLE... table_two" />
-                <marker date="1514638267112" expanded="true" signature="5304:5327" ph="SELECT * FRO... table_two" />
-                <marker date="1514638267112" expanded="true" signature="5329:5352" ph="SELECT * FRO... table_one" />
-                <marker date="1514638267112" expanded="true" signature="5355:5391" ph="SELECT * FRO... table_one" />
-                <marker date="1514638267112" expanded="true" signature="5434:5505" ph="SELECT album... table_one" />
-                <marker date="1514638267112" expanded="true" signature="5539:5610" ph="SELECT * FRO... table_one" />
-                <marker date="1514638267112" expanded="true" signature="5634:5710" ph="SELECT * FRO... table_one" />
-                <marker date="1514638267112" expanded="true" signature="5712:5880" ph="SELECT album... table_one" />
-              </folding>
+            <state relative-caret-position="1479">
+              <caret line="51" selection-start-line="51" selection-end-line="51" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -91,9 +48,8 @@
       <file leaf-file-name="myscl.join.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="522">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -101,9 +57,8 @@
       <file leaf-file-name="performance.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/performance.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="928">
+              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -111,9 +66,8 @@
       <file leaf-file-name="form.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
-              <caret line="113" column="52" lean-forward="false" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
-              <folding />
+            <state relative-caret-position="96">
+              <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -121,9 +75,8 @@
       <file leaf-file-name="myscl.orderby.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/myscl.orderby.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="1131">
+              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -131,30 +84,23 @@
       <file leaf-file-name="resize.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/resize.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="638">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="toggle.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/toggle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="154">
-                <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-                <folding />
+              <first_editor relative-caret-position="203">
+                <caret line="7" selection-start-line="7" selection-end-line="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -164,9 +110,8 @@
       <file leaf-file-name="alias.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shell/alias.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-              <folding />
+            <state>
+              <caret column="44" selection-start-column="44" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -218,69 +163,51 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="-11" />
-    <option name="width" value="1922" />
-    <option name="height" value="1092" />
+    <option name="x" value="-3840" />
+    <option name="y" value="-4" />
+    <option name="width" value="1920" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="TUTORIAL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TUTORIAL" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TUTORIAL" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TUTORIAL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TUTORIAL" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="TUTORIAL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TUTORIAL" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sql" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="TUTORIAL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TUTORIAL" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="xhr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TUTORIAL" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -303,19 +230,16 @@
   <component name="RunManager" selected="Node.js.resize.js">
     <configuration name="resize.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="resize.js" working-dir="$PROJECT_DIR$/javascript" />
     <configuration name="toggle.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="toggle.js" working-dir="$PROJECT_DIR$/javascript" />
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.toggle.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.resize.js" />
+    <list>
+      <item itemvalue="Node.js.toggle.js" />
+      <item itemvalue="Node.js.resize.js" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.resize.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.toggle.js" />
+      <list>
+        <item itemvalue="Node.js.resize.js" />
+        <item itemvalue="Node.js.toggle.js" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -339,6 +263,7 @@
       <workItem from="1515670731740" duration="4055000" />
       <workItem from="1515679541135" duration="2458000" />
       <workItem from="1515765427826" duration="11000" />
+      <workItem from="1539111338745" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1514897562107</created>
@@ -617,33 +542,35 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53675000" />
+    <option name="totallyTimeSpent" value="54346000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <frame x="-3840" y="-4" width="1920" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15446717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26082367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35586062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.32948583" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.26082367" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.3296875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15635005" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915523" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="REST Client" order="7" weight="0.35586062" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="8" weight="0.32946146" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32946146" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -668,16 +595,11 @@
     <MESSAGE value="performance" />
     <option name="LAST_COMMIT_MESSAGE" value="performance" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/shell/alias.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-          <folding />
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -685,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,8 +614,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="154">
-            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-            <folding />
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
         </state>
@@ -703,67 +623,21 @@
     <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2816">
-          <caret line="128" column="69" lean-forward="false" selection-start-line="128" selection-start-column="69" selection-end-line="128" selection-end-column="69" />
-          <folding />
+          <caret line="128" column="69" selection-start-line="128" selection-start-column="69" selection-end-line="128" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/table.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
-          <folding>
-            <marker date="1514638267112" expanded="true" signature="257:323" ph="CREATE TABLE... table_test" />
-            <marker date="1514638267112" expanded="true" signature="344:458" ph="DROP TABLE t... " />
-            <marker date="1514638267112" expanded="true" signature="487:610" ph="UPDATE table_test... " />
-            <marker date="1514638267112" expanded="true" signature="808:861" ph="ALTER TABLE table_test... " />
-            <marker date="1514638267112" expanded="true" signature="942:993" ph="DELETE FROM table_test... " />
-            <marker date="1514638267112" expanded="true" signature="1151:1175" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1201:1228" ph="SELECT name table_test" />
-            <marker date="1514638267112" expanded="true" signature="1328:1387" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1443:1491" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1493:1548" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1615:1660" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1718:1763" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1765:1811" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1813:1891" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2030:2091" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2122:2165" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2197:2239" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2373:2568" ph="/*LIMIT пред... " />
-            <marker date="1514638267112" expanded="true" signature="2571:2623" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2627:2659" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2661:3378" ph="SELECT это п... " />
-            <marker date="1514638267112" expanded="true" signature="3482:3513" ph="SELECT COUNT... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3515:3562" ph="SELECT COUNT... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3603:3656" ph="SELECT price... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3658:3735" ph="SELECT price... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3793:3830" ph="SELECT SUM(d... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3831:3896" ph="SELECT categ... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3918:3955" ph="SELECT MAX(d... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3957:3994" ph="SELECT MIN(d... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3996:4033" ph="SELECT AVG(d... table_test" />
-            <marker date="1514638267112" expanded="true" signature="4051:4110" ph="SELECT price... table_test" />
-            <marker date="1514638267112" expanded="true" signature="4112:4183" ph="SELECT name,... table_test" />
-            <marker date="1514638267112" expanded="true" signature="4207:4276" ph="SELECT price... table_test" />
-            <marker date="1514638267112" expanded="true" signature="4278:4344" ph="SELECT price... table_test" />
-            <marker date="1514638267112" expanded="true" signature="5245:5302" ph="CREATE TABLE... table_two" />
-            <marker date="1514638267112" expanded="true" signature="5304:5327" ph="SELECT * FRO... table_two" />
-            <marker date="1514638267112" expanded="true" signature="5329:5352" ph="SELECT * FRO... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5355:5391" ph="SELECT * FRO... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5434:5505" ph="SELECT album... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5539:5610" ph="SELECT * FRO... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5634:5710" ph="SELECT * FRO... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5712:5880" ph="SELECT album... table_one" />
-          </folding>
+          <caret line="51" selection-start-line="51" selection-end-line="51" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shell/alias.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="55" />
-          <folding />
+        <state>
+          <caret selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -771,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4312">
           <caret line="196" column="43" lean-forward="true" selection-start-line="196" selection-start-column="43" selection-end-line="196" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,15 +652,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
-          <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding />
+          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -795,17 +666,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3190">
           <caret line="145" column="22" lean-forward="true" selection-start-line="145" selection-start-column="22" selection-end-line="145" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/xhr/xhr.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -815,172 +680,78 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/shell/SETTINGS.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/shell/SETTINGS.sh" />
     <entry file="file://$PROJECT_DIR$/shell/tar.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shell/zsh.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shell/delete">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/shell/apache.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/shell/apache.sh" />
     <entry file="file://$PROJECT_DIR$/shell/for i in.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding />
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shell/SETTINGS.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell/shell_comand.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/shell/SETTINGS.sh" />
+    <entry file="file://$PROJECT_DIR$/shell/shell_comand.sh" />
     <entry file="file://$PROJECT_DIR$/shell/zsh.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shell/tar.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shell/delete">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/shell/apache.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/shell/apache.sh" />
     <entry file="file://$PROJECT_DIR$/shell/for i in.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cffee/coffeescript.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3696">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
+        <state relative-caret-position="-3696" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cffee/clisck.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/connect.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/shell/SETTINGS.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell/shell_comand.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/shell/SETTINGS.sh" />
+    <entry file="file://$PROJECT_DIR$/shell/shell_comand.sh" />
     <entry file="file://$PROJECT_DIR$/shell/tar.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shell/zsh.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shell/delete">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shell/for i in.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -995,39 +766,30 @@
     <entry file="file://$PROJECT_DIR$/shell/grep.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shell/apache.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/shell/apache.sh" />
     <entry file="file://$PROJECT_DIR$/shell/alias.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-          <folding />
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/myscl.orderby.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="1131">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-            <folding />
+          <first_editor relative-caret-position="203">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
         </state>
@@ -1052,101 +814,47 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/toggle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/resize.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="638">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/myscl.pro.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="29">
+          <caret line="1" column="16" selection-start-line="1" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/table.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
-          <folding>
-            <marker date="1514638267112" expanded="true" signature="257:323" ph="CREATE TABLE... table_test" />
-            <marker date="1514638267112" expanded="true" signature="344:458" ph="DROP TABLE t... " />
-            <marker date="1514638267112" expanded="true" signature="487:610" ph="UPDATE table_test... " />
-            <marker date="1514638267112" expanded="true" signature="808:861" ph="ALTER TABLE table_test... " />
-            <marker date="1514638267112" expanded="true" signature="942:993" ph="DELETE FROM table_test... " />
-            <marker date="1514638267112" expanded="true" signature="1151:1175" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1201:1228" ph="SELECT name table_test" />
-            <marker date="1514638267112" expanded="true" signature="1328:1387" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1443:1491" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1493:1548" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1615:1660" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1718:1763" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1765:1811" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="1813:1891" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2030:2091" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2122:2165" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2197:2239" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2373:2568" ph="/*LIMIT пред... " />
-            <marker date="1514638267112" expanded="true" signature="2571:2623" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2627:2659" ph="SELECT * FRO... table_test" />
-            <marker date="1514638267112" expanded="true" signature="2661:3378" ph="SELECT это п... " />
-            <marker date="1514638267112" expanded="true" signature="3482:3513" ph="SELECT COUNT... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3515:3562" ph="SELECT COUNT... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3603:3656" ph="SELECT price... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3658:3735" ph="SELECT price... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3793:3830" ph="SELECT SUM(d... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3831:3896" ph="SELECT categ... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3918:3955" ph="SELECT MAX(d... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3957:3994" ph="SELECT MIN(d... table_test" />
-            <marker date="1514638267112" expanded="true" signature="3996:4033" ph="SELECT AVG(d... table_test" />
-            <marker date="1514638267112" expanded="true" signature="4051:4110" ph="SELECT price... table_test" />
-            <marker date="1514638267112" expanded="true" signature="4112:4183" ph="SELECT name,... table_test" />
-            <marker date="1514638267112" expanded="true" signature="4207:4276" ph="SELECT price... table_test" />
-            <marker date="1514638267112" expanded="true" signature="4278:4344" ph="SELECT price... table_test" />
-            <marker date="1514638267112" expanded="true" signature="5245:5302" ph="CREATE TABLE... table_two" />
-            <marker date="1514638267112" expanded="true" signature="5304:5327" ph="SELECT * FRO... table_two" />
-            <marker date="1514638267112" expanded="true" signature="5329:5352" ph="SELECT * FRO... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5355:5391" ph="SELECT * FRO... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5434:5505" ph="SELECT album... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5539:5610" ph="SELECT * FRO... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5634:5710" ph="SELECT * FRO... table_one" />
-            <marker date="1514638267112" expanded="true" signature="5712:5880" ph="SELECT album... table_one" />
-          </folding>
+        <state relative-caret-position="1479">
+          <caret line="51" selection-start-line="51" selection-end-line="51" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/myscl.join.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="522">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/performance.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="928">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="113" column="52" lean-forward="false" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="96">
+          <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
         </state>
       </provider>
     </entry>
